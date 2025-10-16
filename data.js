@@ -31,6 +31,35 @@ const venuesData = [
   instagram: "@ahengu_sopi",
   website: "https://ahengusopi.mk",
 },
+ {
+    id: "new-albis-gostivar",
+    name: {
+      en: "New Albis",
+      sq: "New Albis",
+      mk: "Нови Албис",
+      tr: "Yeni Albis"
+    },
+    description: {
+      en: "Elegant wedding venue in Gostivar offering modern interiors and spacious banquet facilities.",
+      sq: "Ambient elegant për dasma në Gostivar që ofron enterier modern dhe hapësira të gjera për bankete.",
+      mk: "Елегантна свадбена сала во Гостивар која нуди модерен ентериер и пространи банкетски капацитети.",
+      tr: "Gostivar'da modern iç mekanlar ve geniş banket salonları sunan şık bir düğün mekanı."
+    },
+    city: "Gostivar",
+    capacity: 400,
+    address: "Dutlok, Gostivar 1230",
+    image: "https://i.imgur.com/V1HxCX0.jpeg",
+    gallery: [
+      "https://i.imgur.com/V1HxCX0.jpeg",
+      "https://i.imgur.com/CftZySJ.jpeg",
+      "https://i.imgur.com/UUN61JN.jpeg"
+    ],
+    category: "Wedding Hall",
+    phone: "+389 78 229 091",
+    email: "info@newalbis.mk",
+    lat: 41.553,
+    lng: 20.935
+  },
 {
   id: "euphoria-bitola",
   name: {
@@ -156,6 +185,37 @@ const venuesData = [
   website: "https://ragusa360.com",
 },
 {
+  id: "gold-planet-kamenjane",
+  name: {
+    en: "Gold Planet",
+    sq: "Gold Planet",
+    mk: "Gold Planet",
+    tr: "Gold Planet"
+  },
+  description: {
+    en: "Luxurious wedding venue in Kamenjane with golden accents and opulent decor.",
+    sq: "Ambient luksoz për dasma në Kamenjane me detaje të arta dhe dekor të pasur.",
+    mk: "Луксузна свадбена сала во Камјан со златни акценти и раскошен декор.",
+    tr: "Kamenjane'da altın detaylara ve lüks dekorasyona sahip zarif düğün mekanı."
+  },
+  city: "Tetovo",
+  capacity: 800,
+  address: "Kamenjane 101 BB, Tetovo",
+  image: "https://i.imgur.com/06sO1Cz.jpeg",
+  gallery: [
+    "https://i.imgur.com/06sO1Cz.jpeg",
+    "https://i.imgur.com/C9aJaGv.jpeg",
+    "https://i.imgur.com/5z4ypml.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 582 014",
+  email: "info@restaurantplanet.mk",
+  lat: 41.949,
+  lng: 20.944,
+  instagram: "@restaurantplanet_goldplanet",
+  website: "https://restaurantplanet.mk",
+},
+{
   id: "aleksandar-palace-skopje",
   name: {
     en: "Aleksandar Palace",
@@ -218,36 +278,37 @@ const venuesData = [
   website: "https://kp.mk",
 },
 {
-  id: "restaurant-amor-skopje",
+  id: "hotel-ambasador-ohrid",
   name: {
-    en: "Restoran Amor",
-    sq: "Restoran Amor",
-    mk: "Ресторан Амор",
-    tr: "Restoran Amor"
+    en: "Hotel Ambasador",
+    sq: "Hotel Ambasador",
+    mk: "Хотел Амбасадор",
+    tr: "Hotel Ambasador"
   },
   description: {
-    en: "Restoran Amor is a luxurious wedding venue in Skopje offering a spacious hall, elegant interior, and romantic ambiance, perfect for weddings and large events.",
-    sq: "Restoran Amor është një vend i luksit për dasma në Shkup që ofron një sallë të madhe, interior elegant dhe atmosferë romantike, ideale për dasma dhe ngjarje të mëdha.",
-    mk: "Ресторан Амор е луксузен свадбен простор во Скопје со пространа сала, елегантен ентериер и романтична атмосфера, совршен за свадби и големи настани.",
-    tr: "Restoran Amor, Üsküp'te geniş bir salon, zarif iç mekan ve romantik atmosfer sunan lüks bir düğün mekanıdır, düğünler ve büyük etkinlikler için idealdir."
+    en: "Hotel Ambasador in Ohrid offers a modern and attractive venue for weddings, celebrations, and events, featuring comfortable rooms, a restaurant, and conference facilities, situated 5 km from the town center and 2 km from Ohrid Airport.",
+    sq: "Hotel Ambasador në Ohër ofron një vend modern dhe tërheqës për dasma, festime dhe ngjarje, me dhoma komode, restorant dhe facilitete konferencash, i vendosur 5 km nga qendra e qytetit dhe 2 km nga Aeroporti i Ohrit.",
+    mk: "Хотел Амбасадор во Охрид нуди модерен и атрактивен простор за свадби, прослави и настани, со удобни соби, ресторан и конференциски капацитети, сместен 5 км од центарот на градот и 2 км од Аеродромот Охрид.",
+    tr: "Ohrid'deki Hotel Ambasador, modern ve çekici bir düğün, kutlama ve etkinlik mekanı sunmaktadır; konforlu odalar, restoran ve konferans olanakları ile şehir merkezine 5 km ve Ohrid Havaalanı'na 2 km mesafededir."
   },
-  city: "Skopje",
-  capacity: 500,
-  address: "Boris Trajkovski 210, Skopje 1000",
-  image: "https://i.imgur.com/oVJFoCQ.jpeg",
+  city: "Ohrid",
+  capacity: 150,
+  address: "Podmolje, Ohrid, North Macedonia",
+  image: "https://i.imgur.com/x4dL0xD.png",
   gallery: [
-    "https://i.imgur.com/oVJFoCQ.jpeg",
-    "https://i.imgur.com/6a3CE4z.jpeg",
-    "https://i.imgur.com/vpFwqgL.jpeg"
+    "https://www.hotelambasador.mk/weddings?pgid=m3eah4sz-14cb8ac4-3ae0-44cc-9d52-0070d81f6248",
+    "https://www.hotelambasador.mk/weddings?pgid=m3eah4sz-66f2950e-a3d8-4e05-acdc-2dcaf9115ea4",
+    "https://www.hotelambasador.mk/weddings?pgid=m3eah4sz-d95265e0-a634-46b0-8655-667054f3cb58",
+    "https://www.hotelambasador.mk/weddings?pgid=m3eah4sz-1b2c33d0-5e77-45bf-9c8f-272246440f1f"
   ],
   category: "Wedding Hall",
-  phone: "+389 72 244 582",
-  email: "info@restoranamor.mk",
-  lat: 41.9935,
-  lng: 21.4333,
-  instagram: "@restoran_amor",
-  website: "https://restoranamor.mk",
+  phone: "+389 46 282 020",
+  email: "hotelambasador@t.mk",
+  website: "https://www.hotelambasador.mk",
+  lat: 41.164193,
+  lng: 20.751313
 },
+
 {
   id: "haybori-tetovo",
   name: {
@@ -309,6 +370,64 @@ const venuesData = [
   lng: 21.777,
   instagram: "@hotel_glorius",
   website: "https://glorius.mk",
+},
+{
+  id: "hotel-kocarev-ohrid",
+  name: {
+    en: "Hotel Kocarev",
+    sq: "Hotel Kocarev",
+    mk: "Хотел Кочарев",
+    tr: "Hotel Kocarev"
+  },
+  description: {
+    en: "Hotel Kocarev in Ohrid offers a comfortable and modern venue for weddings, celebrations, and events with elegant rooms, a seasonal outdoor pool, and a restaurant serving traditional and international cuisine.",
+    sq: "Hotel Kocarev në Ohër ofron një vend të rehatshëm dhe modern për dasma, festime dhe ngjarje me dhoma elegante, pishinë të jashtme sezonal dhe restorant që ofron kuzhinë tradicionale dhe ndërkombëtare.",
+    mk: "Хотел Кочарев во Охрид нуди удобен и модерен простор за свадби, прослави и настани со елегантни соби, сезонски отворен базен и ресторан кој служи традиционална и интернационална кујна.",
+    tr: "Ohrid'deki Hotel Kocarev, zarif odalar, mevsimlik açık havuz ve geleneksel ve uluslararası mutfak sunan restoran ile düğünler, kutlamalar ve etkinlikler için konforlu ve modern bir mekan sunar."
+  },
+  city: "Ohrid",
+  capacity: 340,
+  address: "Sv. Erazmo bb, Ohrid 6000, North Macedonia",
+  image: "http://hotelkocarev.mk/wp-content/uploads/2012/07/114829661.jpg",
+  gallery: [
+    "http://hotelkocarev.mk/wp-content/uploads/2012/07/114829661.jpg",
+    "http://hotelkocarev.mk/wp-content/uploads/2012/07/114830261.jpg"
+  ],
+  category: "Hotel",
+  phone: "+389 46 260 004",
+  email: "hotelkocarev@gmail.com",
+  lat: 41.108,
+  lng: 20.798,
+  website: "http://hotelkocarev.mk"
+},
+{
+  id: "balux-bitola",
+  name: {
+    en: "Balux",
+    sq: "Balux",
+    mk: "Балукс",
+    tr: "Balux"
+  },
+  description: {
+    en: "Balux in Bitola is an elegant venue offering a modern and stylish space perfect for weddings, celebrations, and special events.",
+    sq: "Balux në Manastir është një vend elegant që ofron hapësirë moderne dhe stil, ideale për dasma, festime dhe ngjarje të veçanta.",
+    mk: "Балукс во Битола е елегантен простор кој нуди модерен и стилски амбиент, совршен за свадби, прослави и специјални настани.",
+    tr: "Bitola’daki Balux, düğünler, kutlamalar ve özel etkinlikler için modern ve şık bir mekan sunar."
+  },
+  city: "Bitola",
+  capacity: 300,
+  address: "Улица Шералти бб, Bitola, North Macedonia",
+  image: "https://i.imgur.com/AEacu5K.jpeg",
+  gallery: [
+    "https://i.imgur.com/AEacu5K.jpeg",
+    "https://i.imgur.com/5dJiHdf.jpeg",
+    "https://i.imgur.com/04E2GZt.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 75 237 556",
+  email: "bkmilenium@yahoo.com",
+  lat: 41.031,
+  lng: 21.332
 },
 {
   id: "kapri-bitola",
@@ -402,6 +521,68 @@ const venuesData = [
   lng: 21.433,
   instagram: "@_cherryorchard",
   website: "https://facebook.com/cherryorchardmk",
+},
+{
+  id: "restaurant-amor-skopje",
+  name: {
+    en: "Restoran Amor",
+    sq: "Restoran Amor",
+    mk: "Ресторан Амор",
+    tr: "Restoran Amor"
+  },
+  description: {
+    en: "Restoran Amor is a luxurious wedding venue in Skopje offering a spacious hall, elegant interior, and romantic ambiance, perfect for weddings and large events.",
+    sq: "Restoran Amor është një vend i luksit për dasma në Shkup që ofron një sallë të madhe, interior elegant dhe atmosferë romantike, ideale për dasma dhe ngjarje të mëdha.",
+    mk: "Ресторан Амор е луксузен свадбен простор во Скопје со пространа сала, елегантен ентериер и романтична атмосфера, совршен за свадби и големи настани.",
+    tr: "Restoran Amor, Üsküp'te geniş bir salon, zarif iç mekan ve romantik atmosfer sunan lüks bir düğün mekanıdır, düğünler ve büyük etkinlikler için idealdir."
+  },
+  city: "Skopje",
+  capacity: 500,
+  address: "Boris Trajkovski 210, Skopje 1000",
+  image: "https://i.imgur.com/oVJFoCQ.jpeg",
+  gallery: [
+    "https://i.imgur.com/oVJFoCQ.jpeg",
+    "https://i.imgur.com/6a3CE4z.jpeg",
+    "https://i.imgur.com/vpFwqgL.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 72 244 582",
+  email: "info@restoranamor.mk",
+  lat: 41.9935,
+  lng: 21.4333,
+  instagram: "@restoran_amor",
+  website: "https://restoranamor.mk",
+},
+{
+  id: "despinas-wedding-venue-ohrid",
+  name: {
+    en: "Despinas Wedding Venue",
+    sq: "Despinas Wedding Venue",
+    mk: "Свадбена Сала Деспинас",
+    tr: "Despinas Wedding Venue"
+  },
+  description: {
+    en: "Despinas Wedding Venue in Ohrid offers an elegant and cozy venue for weddings, celebrations, and special events, with attentive service and a welcoming atmosphere.",
+    sq: "Despinas Wedding Venue në Ohër ofron një vend elegant dhe të rehatshëm për dasma, festime dhe ngjarje të veçanta, me shërbim të kujdesshëm dhe atmosferë mikpritëse.",
+    mk: "Свадбена Сала Деспинас во Охрид нуди елегантен и комфорен простор за свадби, прослави и специјални настани, со внимателна услуга и пријатна атмосфера.",
+    tr: "Ohrid'deki Despinas Wedding Venue, düğünler, kutlamalar ve özel etkinlikler için şık ve samimi bir mekan sunar; özenli hizmet ve sıcak bir atmosfer ile."
+  },
+  city: "Ohrid",
+  capacity: 180,
+  address: "Naum Ohridski 10v, Ohrid, North Macedonia",
+  image: "https://i.imgur.com/H7VuR16.jpeg",
+  gallery: [
+    "https://i.imgur.com/H7VuR16.jpeg",
+    "https://i.imgur.com/qjb34i8.jpeg",
+    "https://i.imgur.com/8Tnipkx.jpeg",
+    "https://i.imgur.com/oMIBxMc.jpeg",
+    "https://i.imgur.com/qCaJQvM.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 74 233 898",
+  email: "RestoranDespina@yahoo.com",
+  lat: 41.114,
+  lng: 20.797
 },
 {
   id: "vavilon-bitola",
@@ -529,6 +710,36 @@ const venuesData = [
   website: "https://dyfazana.mk",
 },
 {
+  id: "hotel-lav-kumanovo",
+  name: {
+    en: "Hotel Lav",
+    sq: "Hotel Lav",
+    mk: "Хотел Лав",
+    tr: "Hotel Lav"
+  },
+  description: {
+    en: "Hotel Lav in Kumanovo offers comfortable accommodations with amenities such as free Wi-Fi, a swimming pool, and a bar/lounge. It's ideal for travelers and small celebrations.",
+    sq: "Hotel Lav në Kumanovë ofron akomodim komod me kushte si Wi-Fi falas, pishinë dhe bar/lounge. Është i përshtatshëm për udhëtarë dhe festa të vogla.",
+    mk: "Хотел Лав во Куманово нуди удобни сместувачки капацитети со услуги како бесплатен Wi-Fi, базен и бар/лаунџ. Идеален е за патници и мали прослави.",
+    tr: "Kumanovo'daki Hotel Lav, ücretsiz Wi-Fi, yüzme havuzu ve bar/lounge gibi olanaklarla konforlu konaklama sunar. Seyahat edenler ve küçük kutlamalar için idealdir."
+  },
+  city: "Kumanovo",
+  capacity: 150,
+  address: "Železnička 13, Kumanovo, North Macedonia",
+  image: "https://i.imgur.com/wcyt23l.jpeg",
+  gallery: [
+    "https://i.imgur.com/wcyt23l.jpeg",
+    "https://i.imgur.com/PMArEaM.jpeg",
+    "https://i.imgur.com/49Ijm35.jpeg"
+  ],
+  category: "Hotel",
+  phone: "+389 31 413 999",
+  email: "hotel-lav@kumanovo.mk",
+  website: "https://zk.mk/hotel-lav?lang=en",
+  lat: 42.1361,
+  lng: 21.7172
+},
+{
   id: "restaurant-labunishta-struga",
   name: {
     en: "Restaurant Labunishta",
@@ -589,6 +800,35 @@ const venuesData = [
   lng: 21.152,
   instagram: "@elitakamjan",
   website: "https://elitakamjan.mk",
+},
+{
+  id: "bella-dona-kumanovo",
+  name: {
+    en: "Bella Dona",
+    sq: "Bella Dona",
+    mk: "Бела Дона",
+    tr: "Bella Dona"
+  },
+  description: {
+    en: "Bella Dona in Kumanovo is a stylish venue suitable for weddings, celebrations, and private events, offering elegant decor and attentive service.",
+    sq: "Bella Dona në Kumanovë është një vend i stilizuar i përshtatshëm për dasma, festime dhe ngjarje private, duke ofruar dekor elegant dhe shërbim të kujdesshëm.",
+    mk: "Бела Дона во Куманово е стилски простор погоден за свадби, прослави и приватни настани, нудејќи елегантен декор и внимателна услуга.",
+    tr: "Kumanovo'daki Bella Dona, düğünler, kutlamalar ve özel etkinlikler için şık bir mekandır; zarif dekor ve özenli hizmet sunmaktadır."
+  },
+  city: "Kumanovo",
+  capacity: 150,
+  address: "Varazdinska, Kumanovo, North Macedonia",
+  image: "https://i.imgur.com/mEtWJE5.jpeg",
+  gallery: [
+    "https://i.imgur.com/mEtWJE5.jpeg",
+    "https://i.imgur.com/sPQ7xlI.jpeg",
+    "https://i.imgur.com/21vMRJC.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 78 355 560",
+  email: "",
+  lat: 42.134,
+  lng: 21.727
 },
 {
   id: "grand-premier-bitola",
@@ -652,37 +892,7 @@ const venuesData = [
   instagram: "@restoranpark_skopje",
   website: "https://park.mk",
 },
-{
-  id: "gold-planet-kamenjane",
-  name: {
-    en: "Gold Planet",
-    sq: "Gold Planet",
-    mk: "Gold Planet",
-    tr: "Gold Planet"
-  },
-  description: {
-    en: "Luxurious wedding venue in Kamenjane with golden accents and opulent decor.",
-    sq: "Ambient luksoz për dasma në Kamenjane me detaje të arta dhe dekor të pasur.",
-    mk: "Луксузна свадбена сала во Камјан со златни акценти и раскошен декор.",
-    tr: "Kamenjane'da altın detaylara ve lüks dekorasyona sahip zarif düğün mekanı."
-  },
-  city: "Tetovo",
-  capacity: 800,
-  address: "Kamenjane 101 BB, Tetovo",
-  image: "https://i.imgur.com/06sO1Cz.jpeg",
-  gallery: [
-    "https://i.imgur.com/06sO1Cz.jpeg",
-    "https://i.imgur.com/C9aJaGv.jpeg",
-    "https://i.imgur.com/5z4ypml.jpeg"
-  ],
-  category: "Wedding Hall",
-  phone: "+389 70 582 014",
-  email: "info@restaurantplanet.mk",
-  lat: 41.949,
-  lng: 20.944,
-  instagram: "@restaurantplanet_goldplanet",
-  website: "https://restaurantplanet.mk",
-},
+
   {
     id: "palace-prilep",
     name: {
@@ -741,6 +951,37 @@ const venuesData = [
     lat: 41.489,
     lng: 22.898
   },
+  {
+  id: "baron-summer-garden-bitola",
+  name: {
+    en: "Baron Summer Garden",
+    sq: "Baron Summer Garden",
+    mk: "Барон Саммер Гарден",
+    tr: "Baron Summer Garden"
+  },
+  description: {
+    en: "Baron Summer Garden in Bitola offers a beautiful outdoor and indoor space perfect for weddings, parties, and special events with modern decor and a stylish atmosphere.",
+    sq: "Baron Summer Garden në Manastir ofron hapësira të bukura të brendshme dhe të jashtme, ideale për dasma, festa dhe ngjarje të veçanta me dekor modern dhe atmosferë të stilizuar.",
+    mk: "Барон Саммер Гарден во Битола нуди прекрасен отворен и затворен простор, совршен за свадби, забави и специјални настани со модерен декор и стилска атмосфера.",
+    tr: "Bitola’daki Baron Summer Garden, modern dekor ve şık atmosferi ile düğünler, partiler ve özel etkinlikler için mükemmel iç ve dış mekan sunar."
+  },
+  city: "Bitola",
+  capacity: 350,
+  address: "Широк Сокак ББ, Олимписки Базен, Bitola, North Macedonia",
+  image: "https://i.imgur.com/uaT95YO.jpeg",
+  gallery: [
+    "https://i.imgur.com/uaT95YO.jpeg",
+    "https://i.imgur.com/52dbgIo.jpeg",
+    "https://i.imgur.com/MQiRHsv.jpeg",
+    "https://i.imgur.com/sI7eMqd.jpeg",
+    "https://i.imgur.com/JUuZrBS.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 891 293",
+  email: "info@baronsummergarden.mk",
+  lat: 41.033,
+  lng: 21.339
+},
   {
     id: "restorant-arra-tetovo",
     name: {
@@ -919,6 +1160,37 @@ const venuesData = [
     lng: 20.935
   },
   {
+  id: "restaurant-centar-prilep",
+  name: {
+    en: "Restaurant Centar",
+    sq: "Restoranti Centar",
+    mk: "Ресторан Центар",
+    tr: "Restoran Centar"
+  },
+  description: {
+    en: "Restaurant Centar in Prilep offers a modern and elegant space for weddings, celebrations, and special events with exquisite cuisine and professional service.",
+    sq: "Restoranti Centar në Prilep ofron një hapësirë moderne dhe elegante për dasma, festime dhe ngjarje të veçanta me kuzhinë të shkëlqyer dhe shërbim profesional.",
+    mk: "Ресторан Центар во Прилеп нуди модерен и елегантен простор за свадби, прослави и специјални настани со извонредна кујна и професионална услуга.",
+    tr: "Prilep'teki Restaurant Centar, modern ve şık bir mekan sunar; düğünler, kutlamalar ve özel etkinlikler için lezzetli mutfak ve profesyonel hizmet ile ideal."
+  },
+  city: "Prilep",
+  capacity: 200,
+  address: "Маршал Тито 37, Prilep, North Macedonia",
+  image: "https://i.imgur.com/X5iHuqW.jpeg",
+  gallery: [
+    "https://i.imgur.com/X5iHuqW.jpeg",
+    "https://i.imgur.com/P991w97.jpeg",
+    "https://i.imgur.com/BGn9oLg.jpeg",
+    "https://i.imgur.com/nP9fQLr.jpeg",
+    "https://i.imgur.com/dZGkWVW.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 75 123 456",
+  email: "info@restaurantcentar.mk",
+  lat: 41.349,
+  lng: 21.554
+},
+  {
     id: "nita-palace-skopje",
     name: {
       en: "Nita Palace",
@@ -976,35 +1248,7 @@ const venuesData = [
     lat: 42.135,
     lng: 21.724
   },
-  {
-    id: "new-albis-gostivar",
-    name: {
-      en: "New Albis",
-      sq: "New Albis",
-      mk: "Нови Албис",
-      tr: "Yeni Albis"
-    },
-    description: {
-      en: "Elegant wedding venue in Gostivar offering modern interiors and spacious banquet facilities.",
-      sq: "Ambient elegant për dasma në Gostivar që ofron enterier modern dhe hapësira të gjera për bankete.",
-      mk: "Елегантна свадбена сала во Гостивар која нуди модерен ентериер и пространи банкетски капацитети.",
-      tr: "Gostivar'da modern iç mekanlar ve geniş banket salonları sunan şık bir düğün mekanı."
-    },
-    city: "Gostivar",
-    capacity: 400,
-    address: "Dutlok, Gostivar 1230",
-    image: "https://i.imgur.com/V1HxCX0.jpeg",
-    gallery: [
-      "https://i.imgur.com/V1HxCX0.jpeg",
-      "https://i.imgur.com/CftZySJ.jpeg",
-      "https://i.imgur.com/UUN61JN.jpeg"
-    ],
-    category: "Wedding Hall",
-    phone: "+389 78 229 091",
-    email: "info@newalbis.mk",
-    lat: 41.553,
-    lng: 20.935
-  },
+ 
   {
     id: "ragusa360-rooftop-skopje",
     name: {
@@ -1035,6 +1279,37 @@ const venuesData = [
     lng: 21.43138
   },
   {
+  id: "la-casa-grande-exclusive-prilep",
+  name: {
+    en: "La Casa Grande Exclusive",
+    sq: "La Casa Grande Exclusive",
+    mk: "La Casa Grande Exclusive",
+    tr: "La Casa Grande Exclusive"
+  },
+  description: {
+    en: "La Casa Grande Exclusive in Prilep offers a luxurious and elegant venue for weddings, celebrations, and special events with stylish decor and top-tier service.",
+    sq: "La Casa Grande Exclusive në Prilep ofron një vend luksoz dhe elegant për dasma, festime dhe ngjarje të veçanta me dekor stil dhe shërbim të shkëlqyer.",
+    mk: "La Casa Grande Exclusive во Прилеп нуди луксузен и елегантен простор за свадби, прослави и специјални настани со стилски декор и врвна услуга.",
+    tr: "Prilep'teki La Casa Grande Exclusive, şık dekor ve yüksek kaliteli hizmetle düğünler, kutlamalar ve özel etkinlikler için lüks ve zarif bir mekan sunar."
+  },
+  city: "Prilep",
+  capacity: 300,
+  address: "Ul. Aleksandar Makedonski, Prilep, North Macedonia",
+  image: "https://i.imgur.com/x5UX9UH.jpeg",
+  gallery: [
+    "https://i.imgur.com/x5UX9UH.jpeg",
+    "https://i.imgur.com/b84k6st.jpeg",
+    "https://i.imgur.com/qSYN0cv.jpeg",
+    "https://i.imgur.com/6Ougt01.jpeg",
+    "https://i.imgur.com/qZqxIrQ.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 77 997 744",
+  email: "info@lacasagrande.mk",
+  lat: 41.347,
+  lng: 21.555
+},
+  {
   id: "diamond-wedding-house-ilinden",
   name: {
     en: "Diamond Wedding House",
@@ -1048,7 +1323,7 @@ const venuesData = [
     mk: "Вашата свадбена приказна започнува тука 🤍. Diamond Wedding House во Илинден нуди елегантна атмосфера со капацитет до 550 гости и паркинг за 150 возила.",
     tr: "Düğün hikayeniz burada başlıyor 🤍. Ilinden'deki Diamond Wedding House, 550 konuğa kadar kapasite ve 150 araçlık otopark ile şık bir mekan sunuyor."
   },
-  city: "Ilinden",
+  city: "Skopje",
   capacity: 550,
   address: "Ilinden, North Macedonia",
   image: "https://i.imgur.com/iYDNAZx.jpeg",
@@ -1156,6 +1431,66 @@ const venuesData = [
     lng: 20.8844
   },
   {
+  id: "palace-kumanovo",
+  name: {
+    en: "Palace",
+    sq: "Palace",
+    mk: "Палас",
+    tr: "Palace"
+  },
+  description: {
+    en: "Palace in Kumanovo offers a sophisticated venue for weddings, celebrations, and events with elegant interiors, attentive service, and a welcoming atmosphere.",
+    sq: "Palace në Kumanovë ofron një vend të sofistikuar për dasma, festime dhe ngjarje me enterier elegant, shërbim të kujdesshëm dhe atmosferë mikpritëse.",
+    mk: "Палас во Куманово нуди софистициран простор за свадби, прослави и настани со елегантен ентериер, внимателна услуга и пријатна атмосфера.",
+    tr: "Kumanovo'daki Palace, düğünler, kutlamalar ve etkinlikler için zarif iç mekanlar, özenli hizmet ve sıcak bir atmosfer sunar."
+  },
+  city: "Kumanovo",
+  capacity: 200,
+  address: "Улица 1204, Kumanovo, North Macedonia",
+  image: "https://i.imgur.com/NrlXHD0.jpeg",
+  gallery: [
+    "https://i.imgur.com/NrlXHD0.jpeg",
+    "https://i.imgur.com/CcqVjSM.jpeg",
+    "https://i.imgur.com/qXJ2RKB.jpeg",
+    "https://i.imgur.com/Sig4Nrf.jpeg",
+    "https://i.imgur.com/PPTx5Gf.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 78 441 780",
+  email: "restoranpalace@yahoo.com",
+  lat: 42.135,
+  lng: 21.719
+},
+  {
+  id: "etno-vila-sv-nikola-prilep",
+  name: {
+    en: "Etno-Vila Sv. Nikola",
+    sq: "Etno-Vila Sv. Nikola",
+    mk: "Етно-Вила Св. Никола",
+    tr: "Etno-Vila Sv. Nikola"
+  },
+  description: {
+    en: "Etno-Vila Sv. Nikola in Prilep offers a charming traditional-style venue, perfect for weddings, celebrations, and intimate gatherings, surrounded by a cozy and authentic atmosphere.",
+    sq: "Etno-Vila Sv. Nikola në Prilep ofron një vend me stil tradicional, i përshtatshëm për dasma, festime dhe mbledhje intime, i rrethuar nga një atmosferë komode dhe autentike.",
+    mk: "Етно-Вила Св. Никола во Прилеп нуди шармантен традиционален простор, идеален за свадби, прослави и интимни собири, опкружен со пријатна и автентична атмосфера.",
+    tr: "Prilep'teki Etno-Vila Sv. Nikola, düğünler, kutlamalar ve samimi buluşmalar için rahat ve otantik bir atmosferle çevrili, geleneksel tarzda şirin bir mekan sunar."
+  },
+  city: "Prilep",
+  capacity: 120,
+  address: "41.391212724280344, 21.600760698494796, Prilep, North Macedonia",
+  image: "https://i.imgur.com/OWq0ig3.jpeg",
+  gallery: [
+    "https://i.imgur.com/OWq0ig3.jpeg",
+    "https://i.imgur.com/K8yzWgk.jpeg",
+    "https://i.imgur.com/izrwgTy.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 78 407 041",
+  email: "vlatkostojanoski80@gmail.com",
+  lat: 41.391213,
+  lng: 21.600761
+},
+  {
   id: "dvorec-restaurant-skopje",
   name: {
     en: "Dvorec Restaurant",
@@ -1217,6 +1552,98 @@ const venuesData = [
     lng: 20.926
   },
   {
+  id: "grand-remi-kumanovo",
+  name: {
+    en: "Grand Remi",
+    sq: "Grand Remi",
+    mk: "Гранд Реми",
+    tr: "Grand Remi"
+  },
+  description: {
+    en: "Grand Remi in Kumanovo is an elegant venue for weddings, celebrations, and events, offering stylish interiors, attentive service, and a welcoming atmosphere for guests.",
+    sq: "Grand Remi në Kumanovë është një vend elegant për dasma, festime dhe ngjarje, duke ofruar enterier stilizuar, shërbim të kujdesshëm dhe atmosferë mikpritëse për mysafirët.",
+    mk: "Гранд Реми во Куманово е елегантен простор за свадби, прослави и настани, нудејќи стилски ентериер, внимателна услуга и пријатна атмосфера за гостите.",
+    tr: "Kumanovo'daki Grand Remi, düğünler, kutlamalar ve etkinlikler için şık iç mekanlar, özenli hizmet ve misafirler için sıcak bir atmosfer sunar."
+  },
+  city: "Kumanovo",
+  capacity: 250,
+  address: "Industriska BB, Kumanovo, North Macedonia",
+  image: "https://i.imgur.com/ctqBlrJ.jpeg",
+  gallery: [
+    "https://i.imgur.com/ctqBlrJ.jpeg",
+    "https://i.imgur.com/bVCClFH.jpeg",
+    "https://i.imgur.com/SQpFXcK.jpeg",
+    "https://i.imgur.com/aUxWbfi.jpeg",
+    "https://i.imgur.com/S9pWjUQ.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 211 392",
+  email: "",
+  lat: 42.136,
+  lng: 21.717
+},
+{
+  id: "restaurant-elite-gostivar",
+  name: {
+    en: "Restaurant Elite",
+    sq: "Restaurant Elite",
+    mk: "Ресторант Елите",
+    tr: "Restaurant Elite"
+  },
+  description: {
+    en: "Restaurant Elite in Gostivar offers a modern and elegant venue for weddings, celebrations, and private events, with stylish interiors and attentive service.",
+    sq: "Restaurant Elite në Gostivar ofron një vend modern dhe elegant për dasma, festime dhe ngjarje private, me enterier stilizuar dhe shërbim të kujdesshëm.",
+    mk: "Ресторант Елите во Гостивар нуди модерен и елегантен простор за свадби, прослави и приватни настани, со стилски ентериер и внимателна услуга.",
+    tr: "Gostivar'daki Restaurant Elite, düğünler, kutlamalar ve özel etkinlikler için modern ve şık bir mekan sunar; şık iç mekanlar ve özenli hizmet ile."
+  },
+  city: "Gostivar",
+  capacity: 150,
+  address: "Cajle, North Macedonia",
+  image: "https://i.imgur.com/SNpXmHz.jpeg",
+  gallery: [
+    "https://i.imgur.com/SNpXmHz.jpeg",
+    "https://i.imgur.com/rg8Ch8M.jpeg",
+    "https://i.imgur.com/nv0Uptn.jpeg",
+    "https://i.imgur.com/kYzbk2E.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 71 925 000",
+  email: "",
+  lat: 41.792,
+  lng: 20.911
+},
+{
+  id: "gardenia-veles",
+  name: {
+    en: "Gardenia",
+    sq: "Gardenia",
+    mk: "Гардениа",
+    tr: "Gardenia"
+  },
+  description: {
+    en: "Gardenia in Veles offers an elegant venue for weddings, celebrations, and events with stylish interiors, comfortable spaces, and attentive service.",
+    sq: "Gardenia në Veles ofron një vend elegant për dasma, festime dhe ngjarje me enterier stilizuar, hapësira komode dhe shërbim të kujdesshëm.",
+    mk: "Гардениа во Велес нуди елегантен простор за свадби, прослави и настани со стилски ентериер, удобни простории и внимателна услуга.",
+    tr: "Veles'teki Gardenia, düğünler, kutlamalar ve etkinlikler için şık iç mekanlar, konforlu alanlar ve özenli hizmet sunar."
+  },
+  city: "Veles",
+  capacity: 200,
+  address: "Akademik Pencho Davchev 75, Veles, North Macedonia",
+  image: "https://www.hotelgardenia.mk/Websites/122/Images/Temp/1a7d1887-6ce6-41ac-8038-b14fdd149e1e/8B7F2268-09CB-0E5C-526D-0E7E5495CA6C.jpg",
+  gallery: [
+    "https://www.hotelgardenia.mk/Websites/122/Images/Temp/1a7d1887-6ce6-41ac-8038-b14fdd149e1e/8B7F2268-09CB-0E5C-526D-0E7E5495CA6C.jpg",
+    "https://www.hotelgardenia.mk/Websites/122/Images/Temp/1a7d1887-6ce6-41ac-8038-b14fdd149e1e/5B56910F-4AC7-96BD-F8B3-BC455AEAB6D4.jpg",
+    "https://www.hotelgardenia.mk/Websites/122/Images/Temp/1a7d1887-6ce6-41ac-8038-b14fdd149e1e/A9A8B520-C959-EF4E-656C-A5D044D933E4.jpg",
+    "https://www.hotelgardenia.mk/Websites/122/Images/Temp/1a7d1887-6ce6-41ac-8038-b14fdd149e1e/689DC1E2-C020-DC23-3B83-7AB3C7E6A8BF.jpg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 43 224 464",
+  email: "",
+  website: "https://hotelgardenia.mk",
+  lat: 41.716,
+  lng: 21.775
+},
+  {
   id: "ag‑na‑skopje",
   name: {
     en: "AG & NA",
@@ -1249,6 +1676,38 @@ const venuesData = [
   instagram: "@ag_na_skopje",
   website: "https://agna-skopje.mk"
 },
+{
+  id: "hotel-izgrev-stip",
+  name: {
+    en: "Hotel Izgrev",
+    sq: "Hotel Izgrev",
+    mk: "Хотел Изгрев",
+    tr: "Hotel Izgrev"
+  },
+  description: {
+    en: "Hotel Izgrev in Štip offers a modern venue for weddings, events, and private celebrations with comfortable accommodations, elegant interiors, and attentive service.",
+    sq: "Hotel Izgrev në Shtip ofron një vend modern për dasma, ngjarje dhe festa private me akomodim të rehatshëm, enterier elegant dhe shërbim të kujdesshëm.",
+    mk: "Хотел Изгрев во Штип нуди модерен простор за свадби, настани и приватни прослави со удобен смештај, елегантен ентериер и внимателна услуга.",
+    tr: "Ştip'teki Hotel Izgrev, konforlu konaklama, şık iç mekanlar ve özenli hizmet ile düğünler, etkinlikler ve özel kutlamalar için modern bir mekan sunmaktadır."
+  },
+  city: "Stip",
+  capacity: 200,
+  address: "Velko Vlahovik br.1, Štip, North Macedonia",
+  image: "https://i.imgur.com/jxJVZ2S.jpeg",
+  gallery: [
+    "https://i.imgur.com/jxJVZ2S.jpeg",
+    "https://i.imgur.com/t1rmZtu.jpeg",
+    "https://i.imgur.com/sVFeunq.jpeg",
+    "https://i.imgur.com/BBu5rFU.jpeg",
+    "https://i.imgur.com/StHmE2G.jpeg"
+  ],
+  category: "Hotel",
+  phone: "+389 78 322 698",
+  email: "hotel.izgrev@gmail.com",
+  website: "https://hotelizgrev.mk",
+  lat: 41.743,
+  lng: 22.203
+},
    {
     id: "restorant-sajgija-gostivar",
     name: {
@@ -1278,6 +1737,37 @@ const venuesData = [
     lat: 41.538,
     lng: 20.878
   },
+  {
+  id: "7even-weddings-stip",
+  name: {
+    en: "7Even Weddings & Events",
+    sq: "7Even Weddings & Events",
+    mk: "7Even Свадби и Настани",
+    tr: "7Even Weddings & Events"
+  },
+  description: {
+    en: "7Even Weddings & Events in Štip offers a modern and versatile venue for weddings, celebrations, and private events, with stylish decor and attentive service.",
+    sq: "7Even Weddings & Events në Shtip ofron një vend modern dhe të shumëanshëm për dasma, festime dhe ngjarje private, me dekor stilizuar dhe shërbim të kujdesshëm.",
+    mk: "7Even Свадби и Настани во Штип нуди модерен и разновиден простор за свадби, прослави и приватни настани, со стилски декор и внимателна услуга.",
+    tr: "Ştip'teki 7Even Weddings & Events, düğünler, kutlamalar ve özel etkinlikler için modern ve çok yönlü bir mekan sunar; şık dekor ve özenli hizmet ile."
+  },
+  city: "Stip",
+  capacity: 180,
+  address: "5та Партиска Конференција 32A, Štip, North Macedonia",
+  image: "https://i.imgur.com/7GMSqoL.jpeg",
+  gallery: [
+    "https://i.imgur.com/7GMSqoL.jpeg",
+    "https://i.imgur.com/ijQ1fvm.jpeg",
+    "https://i.imgur.com/40yVlTo.jpeg",
+    "https://i.imgur.com/aKOWqps.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 210 481",
+  email: "info@7even.mk",
+  instagram: "7evenweddingsandev",
+  lat: 41.746,
+  lng: 22.201
+},
   {
     id: "restaurant-lux-struga",
     name: {
@@ -1366,6 +1856,69 @@ const venuesData = [
     lng: 20.926
   },
   {
+  id: "astibo-stip",
+  name: {
+    en: "Astibo",
+    sq: "Astibo",
+    mk: "Астиbo",
+    tr: "Astibo"
+  },
+  description: {
+    en: "Astibo in Štip offers a modern and elegant venue for weddings, celebrations, and private events, featuring stylish interiors and attentive service.",
+    sq: "Astibo në Shtip ofron një vend modern dhe elegant për dasma, festime dhe ngjarje private, me enterier stilizuar dhe shërbim të kujdesshëm.",
+    mk: "Астиbo во Штип нуди модерен и елегантен простор за свадби, прослави и приватни настани, со стилски ентериер и внимателна услуга.",
+    tr: "Ştip'teki Astibo, düğünler, kutlamalar ve özel etkinlikler için modern ve şık bir mekan sunar; stil sahibi iç mekanlar ve özenli hizmet ile."
+  },
+  city: "Stip",
+  capacity: 150,
+  address: "Гоце Делчев бр. 42, Štip, North Macedonia",
+  image: "https://i.imgur.com/SB746E7.jpeg",
+  gallery: [
+    "https://i.imgur.com/SB746E7.jpeg",
+    "https://i.imgur.com/XyQZFX7.jpeg",
+    "https://i.imgur.com/9P2Y4Ij.jpeg",
+    "https://i.imgur.com/kwwOM54.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 78 737 424",
+  email: "Info@astibobasic.com.mk",
+  website: "https://astiboplaza.mk",
+  lat: 41.746,
+  lng: 22.201
+},
+  {
+  id: "hotel-sirius-strumica",
+  name: {
+    en: "Hotel Sirius",
+    sq: "Hotel Sirius",
+    mk: "Хотел Сириус",
+    tr: "Hotel Sirius"
+  },
+  description: {
+    en: "Hotel Sirius in Strumica offers a luxurious wedding and event venue with modern interiors, professional service, and premium facilities for unforgettable celebrations.",
+    sq: "Hotel Sirius në Strumicë ofron një vend luksoz për dasma dhe ngjarje me brendësi moderne, shërbim profesional dhe objekte premium për festime të paharrueshme.",
+    mk: "Хотел Сириус во Струмица нуди луксузна свадбена и настанска сала со модерен ентериер, професионална услуга и премиум капацитети за незаборавни прослави.",
+    tr: "Strumica'daki Hotel Sirius, modern iç mekanları, profesyonel hizmeti ve premium tesisleri ile unutulmaz düğün ve etkinlikler için lüks bir mekan sunar."
+  },
+  city: "Strumica",
+  capacity: 300,
+  address: "Strumica, North Macedonia",
+  image: "https://www.hotelsirius.com.mk/assets/images/home-1/5.webp",
+  gallery: [
+    "https://www.hotelsirius.com.mk/assets/images/home-1/5.webp",
+    "https://www.hotelsirius.com.mk/assets/images/home-1/5DS.webp",
+    "https://www.hotelsirius.com.mk/assets/images/home-1/Crystal%201.jpg",
+    "https://www.hotelsirius.com.mk/assets/images/home-1/CRYSTAL%202.jpg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 34 123 456",
+  email: "info@hotelsirius.com.mk",
+  lat: 41.437,
+  lng: 22.645,
+  instagram: "@hotelsirius",
+  website: "https://www.hotelsirius.com.mk"
+},
+  {
     id: "restorant-shqiponja-kerçovë",
     name: {
       en: "Restorant Shqiponja",
@@ -1426,6 +1979,37 @@ const venuesData = [
   lng: 21.4254,
   instagram: "@hotelberovic",
   website: "https://hotelberovic.mk",
+},
+{
+  id: "panorama-strumica",
+  name: {
+    en: "Panorama",
+    sq: "Panorama",
+    mk: "Панорама",
+    tr: "Panorama"
+  },
+  description: {
+    en: "Panorama in Mokrino, Strumica offers a scenic venue perfect for weddings, celebrations, and special events with stunning views and a cozy atmosphere.",
+    sq: "Panorama në Mokrino, Strumicë ofron një vend me pamje mahnitëse, ideal për dasma, festime dhe ngjarje të veçanta me atmosferë të ngrohtë.",
+    mk: "Панорама во Мокрино, Струмица нуди прекрасен простор со поглед, идеален за свадби, прослави и специјални настани со пријатна атмосфера.",
+    tr: "Mokrino, Strumica'daki Panorama, muhteşem manzaralar ve samimi bir atmosfer ile düğünler, kutlamalar ve özel etkinlikler için mükemmel bir mekan sunar."
+  },
+  city: "Strumica",
+  capacity: 250,
+  address: "Mokrino, North Macedonia",
+  image: "https://i.imgur.com/n6g1Mf8.jpeg",
+  gallery: [
+    "https://i.imgur.com/n6g1Mf8.jpeg",
+    "https://i.imgur.com/ceZLTJx.jpeg",
+    "https://i.imgur.com/hbi1kyj.jpeg",
+    "https://i.imgur.com/H19JxoP.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 700 776",
+  email: "panoramamokrino@gmail.com",
+  lat: 41.430,
+  lng: 22.650,
+  website: "https://panoramamokrino.blogspot.com"
 },
   {
     id: "new-palace-kumanovo",
@@ -1621,6 +2205,66 @@ const venuesData = [
     lat: 41.438,
     lng: 22.640
   },
+  {
+  id: "tsar-samuil-strumica",
+  name: {
+    en: "Tsar Samuil",
+    sq: "Tsar Samuil",
+    mk: "Цар Самуил",
+    tr: "Tsar Samuil"
+  },
+  description: {
+    en: "Tsar Samuil in Strumica (Bansko) offers a luxurious venue for weddings, celebrations, and special events, combining elegant decor, premium services, and a stylish atmosphere.",
+    sq: "Tsar Samuil në Strumicë (Bansko) ofron një vend luksoz për dasma, festime dhe ngjarje të veçanta, duke kombinuar dekor elegant, shërbime premium dhe atmosferë stil.",
+    mk: "Цар Самуил во Струмица (Банско) нуди луксузен простор за свадби, прослави и специјални настани, со комбинација на елегантен декор, премиум услуги и стилска атмосфера.",
+    tr: "Strumica (Bansko)'daki Tsar Samuil, düğünler, kutlamalar ve özel etkinlikler için zarif dekor, premium hizmetler ve şık bir atmosfer sunan lüks bir mekandır."
+  },
+  city: "Strumica",
+  capacity: 300,
+  address: "Bansko, Strumica, North Macedonia",
+  image: "https://i.imgur.com/05BcLZk.jpeg",
+  gallery: [
+    "https://i.imgur.com/05BcLZk.jpeg",
+    "https://i.imgur.com/rk2h3hR.png",
+    "https://i.imgur.com/czQ2p43.jpeg",
+    "https://i.imgur.com/EFeLKHB.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 72 211 011",
+  email: "contact@carsamuil.com",
+  lat: 41.480,
+  lng: 22.015,
+  instagram: "@tsar_samuil_",
+  website: "https://carsamuil.com"
+},
+{
+  id: "villa-park-strumica",
+  name: {
+    en: "Villa Park",
+    sq: "Villa Park",
+    mk: "Вила Парк",
+    tr: "Villa Park"
+  },
+  description: {
+    en: "Villa Park in Strumica offers a stylish and comfortable venue for weddings, celebrations, and special events, combining elegant decor with professional service.",
+    sq: "Villa Park në Strumicë ofron një vend të stilizuar dhe të rehatshëm për dasma, festime dhe ngjarje të veçanta, duke kombinuar dekor elegant me shërbim profesional.",
+    mk: "Вила Парк во Струмица нуди стилски и комфорен простор за свадби, прослави и специјални настани, со комбинација на елегантен декор и професионална услуга.",
+    tr: "Strumica’daki Villa Park, şık dekor ve profesyonel hizmet ile düğünler, kutlamalar ve özel etkinlikler için konforlu bir mekan sunar."
+  },
+  city: "Strumica",
+  capacity: 200,
+  address: "Blagoj Jankov Mucheto br.5, Strumica, North Macedonia",
+  image: "https://i.imgur.com/a1JV0T1.jpeg",
+  gallery: [
+    "https://i.imgur.com/a1JV0T1.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 71 305 635",
+  email: "info@villapark.mk",
+  lat: 41.437,
+  lng: 22.650,
+  website: "https://villaparkhotel.mk"
+},
   {
   id: "bon-bon-restaurant-skopje",
   name: {
@@ -2011,7 +2655,1507 @@ const servicesData = [
     image: "https://i.imgur.com/x4dL0xD.png",
     phone: "Coming Soon!",
     email: "Coming Soon!",
-  }
+  },
+  // Tetovo - Salons
+{
+  id: "tetovo-salon-coming-soon",
+  name: {
+    en: "Salon Coming Soon",
+    sq: "Salon Vjen Së Shpejti",
+    mk: "Салон Скоро",
+    tr: "Kuaför Yakında"
+  },
+  city: "Tetovo",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Photographers
+{
+  id: "tetovo-photographer-coming-soon",
+  name: {
+    en: "Photographer Coming Soon",
+    sq: "Fotograf Vjen Së Shpejti",
+    mk: "Фотограф Скоро",
+    tr: "Fotoğrafçı Yakında"
+  },
+  city: "Tetovo",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Decorators
+{
+  id: "tetovo-decorator-coming-soon",
+  name: {
+    en: "Decorator Coming Soon",
+    sq: "Dekorues Vjen Së Shpejti",
+    mk: "Декоратор Скоро",
+    tr: "Dekoratör Yakında"
+  },
+  city: "Tetovo",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Music & DJ
+{
+  id: "tetovo-music-coming-soon",
+  name: {
+    en: "Music / DJ Coming Soon",
+    sq: "Muzikë / DJ Vjen Së Shpejti",
+    mk: "Музика / DJ Скоро",
+    tr: "Müzik / DJ Yakında"
+  },
+  city: "Tetovo",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Wedding Dresses
+{
+  id: "tetovo-dress-coming-soon",
+  name: {
+    en: "Wedding Dress Coming Soon",
+    sq: "Fustan Nuse Vjen Së Shpejti",
+    mk: "Булчинска Фустан Скоро",
+    tr: "Gelinlik Yakında"
+  },
+  city: "Tetovo",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Cakes
+{
+  id: "tetovo-cake-coming-soon",
+  name: {
+    en: "Cake Coming Soon",
+    sq: "Tortë Vjen Së Shpejti",
+    mk: "Торта Скоро",
+    tr: "Pasta Yakında"
+  },
+  city: "Tetovo",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Tetovo - Florists
+{
+  id: "tetovo-florist-coming-soon",
+  name: {
+    en: "Florist Coming Soon",
+    sq: "Florist Vjen Së Shpejti",
+    mk: "Цвеќар Скоро",
+    tr: "Çiçekçi Yakında"
+  },
+  city: "Tetovo",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Skopje - Salons
+{
+  id: "skopje-salon-coming-soon",
+  name: {
+    en: "Salon Coming Soon",
+    sq: "Salon Vjen Së Shpejti",
+    mk: "Салон Скоро",
+    tr: "Kuaför Yakında"
+  },
+  city: "Skopje",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Photographers
+{
+  id: "skopje-photographer-coming-soon",
+  name: {
+    en: "Photographer Coming Soon",
+    sq: "Fotograf Vjen Së Shpejti",
+    mk: "Фотограф Скоро",
+    tr: "Fotoğrafçı Yakında"
+  },
+  city: "Skopje",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Decorators
+{
+  id: "skopje-decorator-coming-soon",
+  name: {
+    en: "Decorator Coming Soon",
+    sq: "Dekorues Vjen Së Shpejti",
+    mk: "Декоратор Скоро",
+    tr: "Dekoratör Yakında"
+  },
+  city: "Skopje",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Music & DJ
+{
+  id: "skopje-music-coming-soon",
+  name: {
+    en: "Music / DJ Coming Soon",
+    sq: "Muzikë / DJ Vjen Së Shpejti",
+    mk: "Музика / DJ Скоро",
+    tr: "Müzik / DJ Yakında"
+  },
+  city: "Skopje",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Wedding Dresses
+{
+  id: "skopje-dress-coming-soon",
+  name: {
+    en: "Wedding Dress Coming Soon",
+    sq: "Fustan Nuse Vjen Së Shpejti",
+    mk: "Булчинска Фустан Скоро",
+    tr: "Gelinlik Yakında"
+  },
+  city: "Skopje",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Cakes
+{
+  id: "skopje-cake-coming-soon",
+  name: {
+    en: "Cake Coming Soon",
+    sq: "Tortë Vjen Së Shpejti",
+    mk: "Торта Скоро",
+    tr: "Pasta Yakında"
+  },
+  city: "Skopje",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Skopje - Florists
+{
+  id: "skopje-florist-coming-soon",
+  name: {
+    en: "Florist Coming Soon",
+    sq: "Florist Vjen Së Shpejti",
+    mk: "Цвеќар Скоро",
+    tr: "Çiçekçi Yakında"
+  },
+  city: "Skopje",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Gostivar - Salons
+{
+  id: "gostivar-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Photographers
+{
+  id: "gostivar-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Decorators
+{
+  id: "gostivar-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Music & DJ
+{
+  id: "gostivar-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Wedding Dresses
+{
+  id: "gostivar-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Cakes
+{
+  id: "gostivar-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gostivar - Florists
+{
+  id: "gostivar-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gostivar",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Ohrid - Salons
+{
+  id: "ohrid-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Photographers
+{
+  id: "ohrid-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Decorators
+{
+  id: "ohrid-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Music & DJ
+{
+  id: "ohrid-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Wedding Dresses
+{
+  id: "ohrid-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Cakes
+{
+  id: "ohrid-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Ohrid - Florists
+{
+  id: "ohrid-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Ohrid",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Struga - Salons
+{
+  id: "struga-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Photographers
+{
+  id: "struga-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Decorators
+{
+  id: "struga-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Music & DJ
+{
+  id: "struga-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Wedding Dresses
+{
+  id: "struga-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Cakes
+{
+  id: "struga-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Struga - Florists
+{
+  id: "struga-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Struga",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Bitola - Salons
+{
+  id: "bitola-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Photographers
+{
+  id: "bitola-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Decorators
+{
+  id: "bitola-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Music & DJ
+{
+  id: "bitola-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Wedding Dresses
+{
+  id: "bitola-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Cakes
+{
+  id: "bitola-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Bitola - Florists
+{
+  id: "bitola-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Bitola",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Gevgelija - Salons
+{
+  id: "gevgelija-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Photographers
+{
+  id: "gevgelija-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Decorators
+{
+  id: "gevgelija-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Music & DJ
+{
+  id: "gevgelija-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Wedding Dresses
+{
+  id: "gevgelija-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Cakes
+{
+  id: "gevgelija-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Gevgelija - Florists
+{
+  id: "gevgelija-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Gevgelija",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Kumanovo - Salons
+{
+  id: "kumanovo-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Photographers
+{
+  id: "kumanovo-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Decorators
+{
+  id: "kumanovo-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Music & DJ
+{
+  id: "kumanovo-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Wedding Dresses
+{
+  id: "kumanovo-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Cakes
+{
+  id: "kumanovo-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Kumanovo - Florists
+{
+  id: "kumanovo-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Kumanovo",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Prilep - Salons
+{
+  id: "prilep-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Photographers
+{
+  id: "prilep-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Decorators
+{
+  id: "prilep-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Music & DJ
+{
+  id: "prilep-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Wedding Dresses
+{
+  id: "prilep-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Cakes
+{
+  id: "prilep-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Prilep - Florists
+{
+  id: "prilep-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Prilep",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Stip - Salons
+{
+  id: "stip-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Photographers
+{
+  id: "stip-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Decorators
+{
+  id: "stip-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Music & DJ
+{
+  id: "stip-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Wedding Dresses
+{
+  id: "stip-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Cakes
+{
+  id: "stip-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Stip - Florists
+{
+  id: "stip-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Stip",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Veles - Salons
+{
+  id: "veles-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Photographers
+{
+  id: "veles-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Decorators
+{
+  id: "veles-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Music & DJ
+{
+  id: "veles-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Wedding Dresses
+{
+  id: "veles-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Cakes
+{
+  id: "veles-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Veles - Florists
+{
+  id: "veles-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Veles",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+// Strumica - Salons
+{
+  id: "strumica-salon-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Salon",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Photographers
+{
+  id: "strumica-photographer-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Photographer",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Decorators
+{
+  id: "strumica-decorator-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Decorator",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Music & DJ
+{
+  id: "strumica-music-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Music",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Wedding Dresses
+{
+  id: "strumica-dress-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Dress",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Cakes
+{
+  id: "strumica-cake-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Cake",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+},
+
+// Strumica - Florists
+{
+  id: "strumica-florist-coming-soon",
+  name: {
+    en: "Coming Soon",
+    sq: "Se Shpejti",
+    mk: "Na Skoro",
+    tr: "Yakında"
+  },
+  city: "Strumica",
+  category: "Florist",
+  image: "https://i.imgur.com/x4dL0xD.png",
+  phone: "Coming Soon!",
+  email: "Coming Soon!",
+  address: "Coming Soon!",
+  website: "Coming Soon!"
+}
 ]
 
 window.venuesData = venuesData
