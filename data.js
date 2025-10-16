@@ -435,6 +435,38 @@ const venuesData = [
   website: "https://vavilon.mk",
 },
 {
+  id: "restaurant-villa-molika-bitola",
+  name: {
+    en: "Restaurant Villa Molika",
+    sq: "Restoranti Villa Molika",
+    mk: "Ресторан Вила Молика",
+    tr: "Restoran Villa Molika"
+  },
+  description: {
+    en: "Restaurant Villa Molika in Bitola offers a cozy and elegant atmosphere surrounded by nature, ideal for weddings, family gatherings, and special celebrations.",
+    sq: "Restoranti Villa Molika në Manastir ofron një atmosferë të ngrohtë dhe elegante, e rrethuar nga natyra — ideale për dasma, mbledhje familjare dhe festa të veçanta.",
+    mk: "Ресторан Вила Молика во Битола нуди пријатна и елегантна атмосфера опкружена со природа, идеална за свадби, семејни собири и специјални прослави.",
+    tr: "Bitola’daki Villa Molika Restoran, doğayla çevrili samimi ve zarif atmosferiyle düğünler, aile toplantıları ve özel kutlamalar için idealdir."
+  },
+  city: "Bitola",
+  capacity: 250,
+  address: "Bitola, North Macedonia",
+  image: "https://i.imgur.com/bgwTj1i.jpeg",
+  gallery: [
+    "https://i.imgur.com/bgwTj1i.jpeg",
+    "https://i.imgur.com/HctOlS8.jpeg",
+    "https://i.imgur.com/z46M6SP.jpeg",
+    "https://i.imgur.com/jRBUOxg.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 75 943 624",
+  email: "info@villamolika.mk",
+  lat: 41.031,
+  lng: 21.332,
+  instagram: "@villamolika",
+  website: "https://villamolika.mk"
+},
+{
   id: "hotel-romantique-veles",
   name: {
     en: "Hotel Romantique",
@@ -768,6 +800,38 @@ const venuesData = [
     lng: 21.278
   },
   {
+  id: "hotel-epinal-skopje",
+  name: {
+    en: "Hotel Epinal",
+    sq: "Hotel Epinal",
+    mk: "Хотел Епинал",
+    tr: "Hotel Epinal"
+  },
+  description: {
+    en: "Hotel Epinal in Skopje offers a luxurious wedding and event venue with elegant interiors, premium catering, and professional service for unforgettable celebrations.",
+    sq: "Hotel Epinal në Shkup ofron një vend luksoz për dasma dhe ngjarje me brendësi elegante, catering premium dhe shërbim profesional për festime të paharrueshme.",
+    mk: "Хотел Епинал во Скопје нуди луксузна свадбена и настанска сала со елегантен ентериер, премиум кетеринг и професионална услуга за незаборавни прослави.",
+    tr: "Üsküp'teki Hotel Epinal, zarif iç mekanları, premium ikramları ve profesyonel hizmetiyle unutulmaz düğün ve etkinlikler için lüks bir mekan sunmaktadır."
+  },
+  city: "Skopje",
+  capacity: 350,
+  address: "Skopje, North Macedonia",
+  image: "https://www.hotelepinal.com/assets/images/wedding-hall/4.jpg",
+  gallery: [
+    "https://www.hotelepinal.com/assets/images/wedding-hall/4.jpg",
+    "https://www.hotelepinal.com/assets/wedding-hall-hero-3dCqt2ik.jpg",
+    "https://www.hotelepinal.com/assets/images/wedding-hall/1.jpg",
+    "https://www.hotelepinal.com/assets/images/wedding-hall/3.jpg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 2 123 4567",
+  email: "info@hotelepinal.com",
+  lat: 41.9981,
+  lng: 21.4254,
+  instagram: "@hotelepinal",
+  website: "https://www.hotelepinal.com"
+},
+  {
     id: "restorant-inxhi-tetovo",
     name: {
       en: "Restorant Inxhi",
@@ -971,6 +1035,36 @@ const venuesData = [
     lng: 21.43138
   },
   {
+  id: "diamond-wedding-house-ilinden",
+  name: {
+    en: "Diamond Wedding House",
+    sq: "Diamond Wedding House",
+    mk: "Diamond Wedding House",
+    tr: "Diamond Wedding House"
+  },
+  description: {
+    en: "Your wedding story starts here 🤍. Diamond Wedding House in Ilinden offers elegant settings with a capacity for up to 550 guests and parking for 150 vehicles.",
+    sq: "Historia juaj e dasmës fillon këtu 🤍. Diamond Wedding House në Ilinden ofron ambiente elegante me kapacitet deri në 550 mysafirë dhe parkim për 150 automjete.",
+    mk: "Вашата свадбена приказна започнува тука 🤍. Diamond Wedding House во Илинден нуди елегантна атмосфера со капацитет до 550 гости и паркинг за 150 возила.",
+    tr: "Düğün hikayeniz burada başlıyor 🤍. Ilinden'deki Diamond Wedding House, 550 konuğa kadar kapasite ve 150 araçlık otopark ile şık bir mekan sunuyor."
+  },
+  city: "Ilinden",
+  capacity: 550,
+  address: "Ilinden, North Macedonia",
+  image: "https://i.imgur.com/iYDNAZx.jpeg",
+  gallery: [
+    "https://i.imgur.com/iYDNAZx.jpeg",
+    "https://i.imgur.com/oYOaObx.jpeg",
+    "https://i.imgur.com/VBu1im3.jpeg",
+    "https://i.imgur.com/xrTfsaB.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 76 212 992",
+  email: "diamond.weddinghouse@gmail.com",
+  lat: 41.995, 
+  lng: 21.551
+},
+  {
     id: "restorant-luxor-gostivar",
     name: { en: "Restorant Luxor", sq: "Restorant Luxor", mk: "Ресторант Луксор", tr: "Restoran Luxor" },
     description: { en: "Elegant wedding venue in Gostivar offering modern interiors and spacious banquet facilities.", sq: "Ambient elegant për dasma në Gostivar që ofron enterier modern dhe hapësira të gjera për bankete.", mk: "Елегантна свадбена сала во Гостивар која нуди модерен ентериер и пространи банкетски капацитети.", tr: "Gostivar'da modern iç mekanlar ve geniş banket salonları sunan şık bir düğün mekanı." },
@@ -1016,6 +1110,37 @@ const venuesData = [
     lng: 20.661
   },
   {
+  id: "restoran-glamour-bitola",
+  name: {
+    en: "Restoran Glamour",
+    sq: "Restoranti Glamour",
+    mk: "Ресторан Гламур",
+    tr: "Restoran Glamour"
+  },
+  description: {
+    en: "Creating unforgettable experiences for every occasion. Modern design and exquisite flavors. Book your table or event now!",
+    sq: "Krijojmë përvoja të paharrueshme për çdo rast. Dizajn modern dhe shije të shkëlqyera. Rezervoni tavolinën ose ngjarjen tuaj tani!",
+    mk: "Создаваме незаборавни доживувања за секоја прилика. Модерен дизајн и извонредни вкусови. Резервирајте маса или настан веднаш!",
+    tr: "Her özel durum için unutulmaz deneyimler yaratıyoruz. Modern tasarım ve mükemmel lezzetler. Masanızı veya etkinliğinizi şimdi rezerve edin!"
+  },
+  city: "Bitola",
+  capacity: 150,
+  address: "Glamour, Bitola, North Macedonia",
+  image: "https://i.imgur.com/a9qXvAy.jpeg",
+  gallery: [
+    "https://i.imgur.com/a9qXvAy.jpeg",
+    "https://i.imgur.com/m2LO2XS.jpeg",
+    "https://i.imgur.com/8Z4XxWd.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 47 255 110",
+  email: "glamurbk@yahoo.com",
+  lat: 41.032,
+  lng: 21.340,
+  instagram: "@restaurantglamour.mk",
+  website: "https://restaurantglamour.com"
+},
+  {
     id: "mont-blanc-gostivar",
     name: { en: "Mont Blanc", sq: "Mont Blanc", mk: "Мон Бланк", tr: "Mont Blanc" },
     description: { en: "Elegant wedding venue in Gostivar offering modern interiors and spacious banquet facilities.", sq: "Ambient elegant për dasma në Gostivar që ofron enterier modern dhe hapësira të gjera për bankete.", mk: "Елегантна свадбена сала во Гостивар која нуди модерен ентериер и пространи банкетски капацитети.", tr: "Gostivar'da modern iç mekanlar ve geniş banket salonları sunan şık bir düğün mekanı." },
@@ -1030,6 +1155,37 @@ const venuesData = [
     lat: 41.7964,
     lng: 20.8844
   },
+  {
+  id: "dvorec-restaurant-skopje",
+  name: {
+    en: "Dvorec Restaurant",
+    sq: "Restoranti Dvorec",
+    mk: "Ресторан Дворец",
+    tr: "Dvorec Restoran"
+  },
+  description: {
+    en: "Dvorec Restaurant in Skopje offers an elegant dining and event experience with modern decor, perfect for weddings, celebrations, and corporate events.",
+    sq: "Restoranti Dvorec në Shkup ofron një përvojë elegante ngrënieje dhe ngjarjesh me dekor modern, i përshtatshëm për dasma, festime dhe ngjarje korporative.",
+    mk: "Ресторан Дворец во Скопје нуди елегантно искуство во јадењето и настаните со модерен декор, идеално за свадби, прослави и корпоративни настани.",
+    tr: "Skopje'deki Dvorec Restoran, modern dekor ile şık yemek ve etkinlik deneyimi sunar; düğünler, kutlamalar ve kurumsal etkinlikler için idealdir."
+  },
+  city: "Skopje",
+  capacity: 300,
+  address: "Skopje, North Macedonia",
+  image: "https://i.imgur.com/fyuUXsH.jpeg",
+  gallery: [
+    "https://i.imgur.com/fyuUXsH.jpeg",
+    "https://i.imgur.com/9Ep58kt.jpeg",
+    "https://i.imgur.com/qFkKUEs.jpeg",
+    "https://i.imgur.com/1VwzjA5.jpeg",
+    "https://i.imgur.com/93xxIAN.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 70 123 789",
+  email: "info@dvorec.mk",
+  lat: 41.9981,
+  lng: 21.4254
+},
   {
     id: "romansa-prilep",
     name: { en: "Restaurant Romansa", sq: "Restorant Romansa", mk: "Ресторант Романса", tr: "Restoran Romansa" },
@@ -1060,6 +1216,39 @@ const venuesData = [
     lat: 41.792,
     lng: 20.926
   },
+  {
+  id: "ag‑na‑skopje",
+  name: {
+    en: "AG & NA",
+    sq: "AG & NA",
+    mk: "АГ & НА",
+    tr: "AG & NA",
+  },
+  description: {
+    en: "Elegant wedding hall in Skopje with refined decor and excellent service, ideal for memorable celebrations.",
+    sq: "Sallë dasmash elegante në Shkup me dekor të rafinuar dhe shërbim të shkëlqyer, ideale për festime të paharrueshme.",
+    mk: "Елегантна свадбена сала во Скопје со префинет декор и одлична услуга, идеална за незаборавни прослави.",
+    tr: "Mekan zarif düğün salonu Üsküp'te, seçkin dekoru ve mükemmel hizmetiyle unutulmaz kutlamalar için ideal.",
+  },
+  city: "Skopje",
+  capacity: 250,
+  address: "Skopje, North Macedonia",
+  image: "https://i.imgur.com/Fkwkrjt.jpeg",
+  gallery: [
+    "https://i.imgur.com/Fkwkrjt.jpeg",
+    "https://i.imgur.com/RDXm9TO.jpeg",
+    "https://i.imgur.com/goYchua.jpeg",
+    "https://i.imgur.com/TzceYuS.jpeg",
+    "https://i.imgur.com/xlhikfp.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 987 654",
+  email: "info@agna.mk",
+  lat: 41.999,
+  lng: 21.44,
+  instagram: "@ag_na_skopje",
+  website: "https://agna-skopje.mk"
+},
    {
     id: "restorant-sajgija-gostivar",
     name: {
@@ -1206,6 +1395,39 @@ const venuesData = [
     lng: 20.878
   },
   {
+  id: "hotel-berovic-skopje",
+  name: {
+    en: "Hotel Berović",
+    sq: "Hotel Berović",
+    mk: "Хотел Беровиќ",
+    tr: "Hotel Berović",
+  },
+  description: {
+    en: "Elegant wedding venue in Studeničani, Skopje, offering refined decor and exceptional service for unforgettable celebrations.",
+    sq: "Sallë dasmash elegante në Studeniçani, Shkup, që ofron dekor të rafinuar dhe shërbim të jashtëzakonshëm për festime të paharrueshme.",
+    mk: "Елегантна свадбена сала во Студеничани, Скопје, со префинет декор и извонредна услуга за незаборавни прослави.",
+    tr: "Üsküp'te Studeniçani'de bulunan zarif bir düğün salonu; seçkin dekoru ve mükemmel hizmetiyle unutulmaz kutlamalar için ideal.",
+  },
+  city: "Skopje",
+  capacity: 300,
+  address: "ul. 8 B.B, Studeničani, Skopje, North Macedonia",
+  image: "https://i.imgur.com/tHaT0Hz.jpeg",
+  gallery: [
+    "https://i.imgur.com/tHaT0Hz.jpeg",
+    "https://i.imgur.com/yGXLFz4.jpeg",
+    "https://i.imgur.com/BsTShqg.jpeg",
+    "https://i.imgur.com/V1KSvNy.jpeg",
+    "https://i.imgur.com/QMdLT0B.jpeg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 205 002",
+  email: "info@hotelberovic.mk",
+  lat: 41.9981,
+  lng: 21.4254,
+  instagram: "@hotelberovic",
+  website: "https://hotelberovic.mk",
+},
+  {
     id: "new-palace-kumanovo",
     name: {
       en: "New Palace",
@@ -1249,6 +1471,40 @@ const venuesData = [
     lat: 42.13899,
     lng: 21.59628
   },
+  {
+  id: "atk-premium-club-skopje",
+  name: {
+    en: "ATK Premium Club",
+    sq: "ATK Premium Club",
+    mk: "АТК Премиум Клуб",
+    tr: "ATK Premium Club",
+  },
+  description: {
+    en: "Luxurious event and wedding venue in Skopje offering an elegant atmosphere, premium catering, and exceptional service for every occasion.",
+    sq: "Sallë luksoze ngjarjesh dhe dasmash në Shkup që ofron ambient elegant, catering premium dhe shërbim të jashtëzakonshëm për çdo rast.",
+    mk: "Луксузна сала за настани и свадби во Скопје со елегантна атмосфера, премиум кетеринг и извонредна услуга за секоја пригода.",
+    tr: "Üsküp'te bulunan lüks etkinlik ve düğün salonu; zarif atmosferi, premium ikramları ve kusursuz hizmetiyle her türlü organizasyon için idealdir.",
+  },
+  city: "Skopje",
+  capacity: 400,
+  address: "Skopje, North Macedonia",
+  image: "https://www.atk.mk/wp-content/uploads/2024/11/nastani-1-1024x681.jpg",
+  gallery: [
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-6-1024x681.jpg",
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-1-1024x681.jpg",
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-2-1024x681.jpg",
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-3-1024x681.jpg",
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-4-1024x681.jpg",
+    "https://www.atk.mk/wp-content/uploads/2024/11/nastani-5-1024x681.jpg"
+  ],
+  category: "Wedding Hall",
+  phone: "+389 70 555 888",
+  email: "info@atk.mk",
+  lat: 41.9981,
+  lng: 21.4254,
+  instagram: "@atk_premium_club",
+  website: "https://www.atk.mk",
+},
   {
     id: "restorant-dardania-kicevo",
     name: {
@@ -1365,6 +1621,35 @@ const venuesData = [
     lat: 41.438,
     lng: 22.640
   },
+  {
+  id: "bon-bon-restaurant-skopje",
+  name: {
+    en: "Bon Bon Restaurant",
+    sq: "Restoranti Bon Bon",
+    mk: "Ресторан Бон Бон",
+    tr: "Bon Bon Restoran"
+  },
+  description: {
+    en: "Bon Bon Restaurant in Skopje offers a refined dining experience with a blend of traditional Macedonian and international cuisines, set in a modern and elegant ambiance.",
+    sq: "Restoranti Bon Bon në Shkup ofron një përvojë të rafinuar ngrënieje me një përzierje të kuzhinës tradicionale maqedonase dhe ndërkombëtare, në një atmosferë moderne dhe elegante.",
+    mk: "Ресторан Бон Бон во Скопје нуди изискано искуство во јадењето со мешавина на традиционална македонска и меѓународна кујна, поставено во модерна и елегантна атмосфера.",
+    tr: "Skopje'deki Bon Bon Restoran, modern ve şık bir atmosferde geleneksel Makedon ve uluslararası mutfakların harmanlandığı zarif bir yemek deneyimi sunmaktadır."
+  },
+  city: "Skopje",
+  capacity: 200,
+  address: "Aleksandar Urdarevski 33, Skopje, North Macedonia",
+  image: "https://i.imgur.com/27BzmKc.jpeg",
+  gallery: [
+    "https://i.imgur.com/27BzmKc.jpeg",
+    "https://i.imgur.com/iB3Uh2Y.jpeg",
+    "https://i.imgur.com/SgJrLto.jpeg"
+  ],
+  category: "Restaurant",
+  phone: "+389 2 264 2903",
+  email: "info@bonbonrestaurant.mk",
+  lat: 41.9981,
+  lng: 21.4254
+},
  
   {
     id: "exclusive-bastion-kumanovo",
