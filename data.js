@@ -123,37 +123,6 @@ const venuesData = [
   website: "https://nobelpalace.mk",
 },
 {
-  id: "romansa-gevgelija",
-  name: {
-    en: "Romansa Wedding Hall",
-    sq: "Salla Romansa",
-    mk: "Романса Сала",
-    tr: "Romansa Düğün Salonu",
-  },
-  description: {
-    en: "Elegant wedding hall with modern amenities and beautiful decor. Perfect for your special day with capacity for up to 300 guests.",
-    sq: "Sallë elegante dasme me komoditet moderne dhe dekor të bukur. Perfekte për ditën tuaj të veçantë me kapacitet deri në 300 mysafirë.",
-    mk: "Елегантна свадбена сала со модерни погодности и убав декор. Совршена за вашиот посебен ден со капацитет до 300 гости.",
-    tr: "Modern olanaklara ve güzel dekora sahip zarif düğün salonu. 300 misafir kapasitesiyle özel gününüz için mükemmel.",
-  },
-  city: "Gevgelija",
-  capacity: 300,
-  address: "Boulevard Marshal Tito 45",
-  image: "https://i.imgur.com/Oi7MTpl.jpeg",
-  gallery: [
-    "https://i.imgur.com/wxrDZ3U.jpeg",
-    "https://i.imgur.com/cZxplbF.jpeg",
-    "https://i.imgur.com/Pt3h9Kw.jpeg",
-  ],
-  category: "Wedding Hall",
-  phone: "+389 70 234 567",
-  email: "info@romansa.mk",
-  lat: 41.1392,
-  lng: 22.5089,
-  instagram: "@romansa_gevgelija",
-  website: "https://romansa.mk",
-}, 
-{
   id: "ragusa-skopje",
   name: {
     en: "Ragusa",
