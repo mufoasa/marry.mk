@@ -174,8 +174,10 @@ h6 {
 .hero {
   position: relative;
   height: 600px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/placeholder.svg?height=600&width=1200")
-    center / cover;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url("https://www.newsnationnow.com/wp-content/uploads/sites/108/2025/04/GettyImages-2090025382.jpg?w=1752&h=986&crop=1")
+    center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -803,6 +805,17 @@ h6 {
   font-size: 32px;
 }
 
+/* Gray out Email and Phone for "Coming Soon" */
+.contact-item p {
+  color: #999;
+  font-style: italic;
+}
+
+.contact-item .contact-icon {
+  opacity: 0.6;
+  font-size: 28px;
+}
+
 .contact-item h3 {
   font-size: 18px;
   margin-bottom: 5px;
@@ -824,11 +837,21 @@ h6 {
   border-radius: 10px;
   text-decoration: none;
   color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and text */
   transition: all 0.3s ease;
 }
 
 .social-links-large a:hover {
   background: var(--secondary);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 .contact-form-section h2 {
@@ -841,6 +864,46 @@ h6 {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
+
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form button {
+  padding: 15px 20px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: var(--secondary);
+}
+
+/* Responsive Grid */
+@media screen and (max-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
 
 /* Footer */
 .footer {
@@ -899,19 +962,21 @@ h6 {
 
 .social-links {
   display: flex;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.social-links a {
-  font-size: 24px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
+.social-links .social-icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.social-links a:hover {
-  transform: scale(1.2);
+.social-links .social-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
+
 
 .footer-bottom {
   text-align: center;
