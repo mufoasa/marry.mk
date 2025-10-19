@@ -1,5 +1,5 @@
 // Language Management
-let currentLang = localStorage.getItem("language") || "en"
+let currentLang = localStorage.getItem("language") || "sq"
 
 const langFlags = {
   en: "🇬🇧",
