@@ -168,7 +168,7 @@ const venuesData = [
     tr: "Kamenjane'da altın detaylara ve lüks dekorasyona sahip zarif düğün mekanı."
   },
   city: "Tetovo",
-  capacity: 800,
+  capacity: 1000+,
   address: "Kamenjane 101 BB, Tetovo",
   image: "https://i.imgur.com/06sO1Cz.jpeg",
   gallery: [
