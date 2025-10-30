@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Venues - Marry.mk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/index/">Marry.mk</a>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="/index/" data-en="Home" data-sq="Ballina" data-mk="Дома" data-tr="Ana Sayfa">Home</a>
+                    <a href="/venues/" data-en="Venues" data-sq="Sallat" data-mk="Сали" data-tr="Mekanlar">Venues</a>
+                    <a href="/services/" data-en="Services" data-sq="Shërbimet" data-mk="Услуги" data-tr="Hizmetler">Services</a>
+                    <a href="/about/" data-en="About" data-sq="Rreth Nesh" data-mk="За Нас" data-tr="Hakkımızda">About</a>
+                    <a href="/contact/" data-en="Contact" data-sq="Kontakti" data-mk="Контакт" data-tr="İletişim">Contact</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <button class="lang-btn" id="langBtn">
+                            <span class="flag">🇬🇧</span>
+                            <span class="lang-text">EN</span>
+                        </button>
+                        <div class="lang-dropdown" id="langDropdown">
+                            <button data-lang="en"><span class="flag">🇬🇧</span> English</button>
+                            <button data-lang="sq"><span class="flag">🇦🇱</span> Shqip</button>
+                            <button data-lang="mk"><span class="flag">🇲🇰</span> Македонски</button>
+                            <button data-lang="tr"><span class="flag">🇹🇷</span> Türkçe</button>
+                        </div>
+                    </div>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="Wedding Venues" data-sq="Sallat e Dasmave" data-mk="Свадбени Сали" data-tr="Düğün Mekanları">Wedding Venues</h1>
+            <p data-en="Find the perfect venue for your special day" data-sq="Gjeni vendin perfekt për ditën tuaj të veçantë" data-mk="Најдете го совршеното место за вашиот посебен ден" data-tr="Özel gününüz için mükemmel mekanı bulun">Find the perfect venue for your special day</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters">
+                <input type="text" id="searchInput" class="filter-input" placeholder="Search venues..." data-en-placeholder="Search venues..." data-sq-placeholder="Kërko salla..." data-mk-placeholder="Пребарај сали..." data-tr-placeholder="Mekan ara...">
+                
+                <select id="cityFilter" class="filter-select">
+                    <option value="" data-en="All Cities" data-sq="Të Gjitha Qytetet" data-mk="Сите Градови" data-tr="Tüm Şehirler">All Cities</option>
+                    <option value="Skopje">Skopje</option>
+                    <option value="Tetovo">Tetovo</option>
+                    <option value="Gostivar">Gostivar</option>
+                    <option value="Ohrid">Ohrid</option>
+                    <option value="Struga">Struga</option>
+                    <option value="Bitola">Bitola</option>
+                    <option value="Gevgelija">Gevgelija</option>
+                    <option value="Kumanovo">Kumanovo</option>
+                    <option value="Prilep">Prilep</option>
+                    <option value="Stip">Stip</option>
+                    <option value="Veles">Veles</option>
+                    <option value="Strumica">Strumica</option>
+                </select>
+
+                <select id="capacityFilter" class="filter-select">
+                    <option value="" data-en="Any Capacity" data-sq="Çdo Kapacitet" data-mk="Секој Капацитет" data-tr="Herhangi Kapasite">Any Capacity</option>
+                    <option value="0-100" data-en="Up to 100" data-sq="Deri në 100" data-mk="До 100" data-tr="100'e kadar">Up to 100</option>
+                    <option value="100-200" data-en="100-200" data-sq="100-200" data-mk="100-200" data-tr="100-200">100-200</option>
+                    <option value="200-300" data-en="200-300" data-sq="200-300" data-mk="200-300" data-tr="200-300">200-300</option>
+                    <option value="300+" data-en="300+" data-sq="300+" data-mk="300+" data-tr="300+">300+</option>
+                </select>
+
+                <button id="favoritesBtn" class="btn-outline" data-en="View Favorites" data-sq="Shiko Favoritët" data-mk="Погледни Омилени" data-tr="Favorileri Görüntüle">
+                    ❤️ <span data-en="View Favorites" data-sq="Shiko Favoritët" data-mk="Погледни Омилени" data-tr="Favorileri Görüntüle">View Favorites</span> (<span id="favCount">0</span>)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venues Grid -->
+    <section class="venues-section">
+        <div class="container">
+            <div class="results-info">
+                <p><span id="resultsCount">0</span> <span data-en="venues found" data-sq="salla të gjetura" data-mk="сали пронајдени" data-tr="mekan bulundu">venues found</span></p>
+            </div>
+            <div class="venue-grid" id="venuesGrid">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo">Marry.mk</h3>
+                    <p data-en="Your trusted wedding and event directory in North Macedonia" data-sq="Drejtoria juaj e besuar e dasmave dhe ngjarjeve në Maqedoninë e Veriut" data-mk="Вашиот доверлив именик за свадби и настани во Северна Македонија" data-tr="Kuzey Makedonya'daki güvenilir düğün ve etkinlik rehberiniz">Your trusted wedding and event directory in North Macedonia</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-sq="Lidhje të Shpejta" data-mk="Брзи Врски" data-tr="Hızlı Bağlantılar">Quick Links</h4>
+                    <ul>
+                        <li><a href="/venues/" data-en="Venues" data-sq="Sallat" data-mk="Сали" data-tr="Mekanlar">Venues</a></li>
+                        <li><a href="/services/" data-en="Services" data-sq="Shërbimet" data-mk="Услуги" data-tr="Hizmetler">Services</a></li>
+                        <li><a href="/about/" data-en="About Us" data-sq="Rreth Nesh" data-mk="За Нас" data-tr="Hakkımızda">About Us</a></li>
+                        <li><a href="/contact/" data-en="Contact" data-sq="Kontakti" data-mk="Контакт" data-tr="İletişim">Contact</a></li>
+                    </ul>
+                </div>
+                    <div class="footer-section">
+ <h4 data-en="Contact" data-sq="Kontakti" data-mk="Контакт" data-tr="İletişim">Contact</h4>
+  <p>Email: Coming Soon!</p>
+  <p>Phone: Coming Soon!</p>
+  <p>You can contact us on our socials for now :)</p>
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/martohu.mk" target="_blank" rel="noopener" aria-label="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+           alt="Instagram" 
+           class="social-icon">
+    </a>
+
+    <a href="https://www.tiktok.com/@martohu.mk" target="_blank" rel="noopener" aria-label="TikTok">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" 
+           alt="TikTok" 
+           class="social-icon">
+    </a>
+
+    <a href="https://www.facebook.com/martohu.mk" target="_blank" rel="noopener" aria-label="Facebook">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" 
+           alt="Facebook" 
+           class="social-icon">
+    </a>
+  </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+            &copy; 2025 
+            <a href="https://instagram.com/martohu.mk" target="_blank" rel="noopener">
+                <strong>Marry.mk</strong>
+            </a> — All Rights Reserved
+        </p>
+        <p>
+            Powered by 
+            <a href="https://instagram.com/whiteluckdigital" target="_blank" rel="noopener">
+                <strong>White Luck Digital</strong>
+            </a>
+        </p>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script src="venues-page.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6980841051377216" crossorigin="anonymous"></script>
+</body>
+</html>
