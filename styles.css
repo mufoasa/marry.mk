@@ -805,12 +805,6 @@ h6 {
   font-size: 32px;
 }
 
-/* Gray out Email and Phone for "Coming Soon" */
-.contact-item p {
-  color: #999;
-  font-style: italic;
-}
-
 .contact-item .contact-icon {
   opacity: 0.6;
   font-size: 28px;
