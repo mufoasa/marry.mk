@@ -118,31 +118,24 @@
         <h2 data-en="Send us a Message" data-sq="Dërgoni një Mesazh" data-mk="Испратете Порака" data-tr="Bize Mesaj Gönderin">
             Send us a Message
         </h2>
-      <form name="contact" method="POST" data-netlify="true">
-  <!-- Required hidden input for Netlify -->
-  <input type="hidden" name="form-name" value="contact">
+        <form name="contact" method="POST" data-netlify="true" class="contact-form">
+            <input type="hidden" name="form-name" value="contact">
+            
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Your Name" data-en-placeholder="Your Name" data-sq-placeholder="Emri Juaj" data-mk-placeholder="Вашето Име" data-tr-placeholder="Adınız" required>
+                <input type="email" name="email" placeholder="Your Email" data-en-placeholder="Your Email" data-sq-placeholder="Email Juaj" data-mk-placeholder="Вашиот Емаил" data-tr-placeholder="E-postanız" required>
+            </div>
 
-  <p>
-    <label>Name: <input type="text" name="name" required></label>
-  </p>
+            <input type="text" name="subject" placeholder="Subject" data-en-placeholder="Subject" data-sq-placeholder="Subjekti" data-mk-placeholder="Предмет" data-tr-placeholder="Konu" required>
+            <textarea name="message" placeholder="Your Message" data-en-placeholder="Your Message" data-sq-placeholder="Mesazhi Juaj" data-mk-placeholder="Вашата Порака" data-tr-placeholder="Mesajınız" rows="6" required></textarea>
 
-  <p>
-    <label>Email: <input type="email" name="email" required></label>
-  </p>
+            <!-- Optional Netlify reCAPTCHA -->
+            <!-- <div data-netlify-recaptcha="true"></div> -->
 
-  <p>
-    <label>Subject: <input type="text" name="subject" required></label>
-  </p>
-
-  <p>
-    <label>Message: <textarea name="message" rows="6" required></textarea></label>
-  </p>
-
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
+            <button type="submit" class="btn-primary" data-en="Send Message" data-sq="Dërgo Mesazh" data-mk="Испрати Порака" data-tr="Mesaj Gönder">
+                Send Message
+            </button>
+        </form>
     </div>
 </section>
 
