@@ -2320,7 +2320,7 @@ const servicesData = [
     tr: "Borebardha Nails"
   },
   city: "Tetovo",
-  category: "Nail Salon","Salon",
+  category:"Salon",
   image: "https://i.imgur.com/1fkeZp6.jpeg",
   phone: "Coming soon",
   email: "N/A",
@@ -2335,7 +2335,7 @@ const servicesData = [
     tr: "Balkan Perfumes"
   },
   city: "Tetovo",
-  category: "Perfume Shop",
+  category: "Decorator",
   image: "https://i.imgur.com/mscXvwn.jpeg",
   phone: "Coming soon",
   email: "N/A",
