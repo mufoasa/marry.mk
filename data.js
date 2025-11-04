@@ -2320,7 +2320,7 @@ const servicesData = [
     tr: "Borebardha Nails"
   },
   city: "Tetovo",
-  category: "Nail Salon,Salon",
+  category: "Nail Salon","Salon",
   image: "https://i.imgur.com/1fkeZp6.jpeg",
   phone: "Coming soon",
   email: "N/A",
