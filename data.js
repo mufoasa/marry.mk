@@ -2311,6 +2311,36 @@ const servicesData = [
     phone: "+389 70 808 938",
     email: "info.studiopranvera@gmail.com"
   },
+ {
+  id: "borebardha-nails-tetovo",
+  name: {
+    en: "Borebardha Nails",
+    sq: "Borebardha Nails",
+    mk: "Боребардха Нејлс",
+    tr: "Borebardha Nails"
+  },
+  city: "Tetovo",
+  category: "Nail Salon",
+  image: "https://i.imgur.com/1fkeZp6.jpeg",
+  phone: "Coming soon",
+  email: "N/A",
+  address: "Tetovo, North Macedonia"
+},
+ {
+  id: "balkan-perfumes-tetovo",
+  name: {
+    en: "Balkan Perfumes",
+    sq: "Balkan Perfumes",
+    mk: "Балкан Перфумс",
+    tr: "Balkan Perfumes"
+  },
+  city: "Tetovo",
+  category: "Perfume Shop",
+  image: "https://i.imgur.com/mscXvwn.jpeg",
+  phone: "Coming soon",
+  email: "N/A",
+  address: "Tetovo, North Macedonia"
+},
   {
     id: "studio-minolta-tetovo",
     name: {
