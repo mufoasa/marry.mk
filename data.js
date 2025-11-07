@@ -2316,7 +2316,7 @@ const servicesData = [
     image: "https://i.imgur.com/XKeJpQE.jpeg",
     gallery: [
       "https://i.imgur.com/XKeJpQE.jpeg",
-      "https://i.imgur.com/abcd123.jpeg" // add more images if available
+      ""
     ],
     phone: "+389 70 808 938",
     email: "info.studiopranvera@gmail.com",
