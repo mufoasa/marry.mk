@@ -2297,36 +2297,37 @@ const venuesData = [
 
 // Sample services data
 const servicesData = [
-  {
-    id: "studio-pranvera-tetovo",
-    name: {
-      en: "Studio Pranvera",
-      sq: "Studio Pranvera",
-      mk: "Студио Пранвера",
-      tr: "Studio Pranvera"
-    },
-    description: {
-      en: "Studio Pranvera offers top-tier hair styling and salon services in Tetovo with a professional team and modern equipment.",
-      sq: "Studio Pranvera ofron shërbime të nivelit të lartë të flokëve dhe salloni në Tetovë me një ekip profesional dhe pajisje moderne.",
-      mk: "Студио Пранвера нуди врвни фризерски услуги во Тетово со професионален тим и современа опрема.",
-      tr: "Studio Pranvera, Tetovo'da profesyonel ekip ve modern ekipmanlarla üst düzey kuaför ve salon hizmetleri sunmaktadır."
-    },
-    city: "Tetovo",
-    category: "Salon",
-    image: "https://i.imgur.com/XKeJpQE.jpeg",
-    gallery: [
-      "https://i.imgur.com/XKeJpQE.jpeg"
-     "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/469806179_18438689062077311_2493827955241016386_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dvRso7CQ57oQ7kNvwGY3jCV&_nc_oc=AdkTfS0EguBXono1rmGC_Pqu8pUxfR9xHaSZ0OvbYVCvstVbDpbXP_vWyUxXGR2Q01w&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=F4mnWQ3HnjAOztd_vEfUQw&oh=00_AfgBn95AVdubAUUUMh1F4DS2-0qbAm9beqbOlJJUU-QM_g&oe=6914190A",
-     "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/482015554_2623799364497845_8403679841216950456_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=108&ccb=1-7&_nc_sid=3a1ebe&_nc_ohc=8T8Pdv8fkSUQ7kNvwH9fD7O&_nc_oc=AdnOkYyydwZ6s1tiXBshUIfhgbLMxnj3KVxzi5zXqsALz6JvUbMbBYAbrqzFCgknycA&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=gBW_MaVSL6x6X6YfMGqBJQ&oh=00_AfgdMHDJ7uaxkhn2Zdo0K7DT9XZj0rnxBfDIrkTYYcJDAQ&oe=691421C8", 
-     "https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/469860858_18438688810077311_5506247010047137500_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1NQYzM-DnkAQ7kNvwG5BG6o&_nc_oc=Adm1tE-yAAuXwePec8ij6EKdoeRy_FgWruXdRH4rYBwxzAi1XiopbYpCmv95EAFyQe4&_nc_zt=23&_nc_ht=scontent.fskp4-1.fna&_nc_gid=F4mnWQ3HnjAOztd_vEfUQw&oh=00_AfjNLuKlUS9QaGQQewQp_VpqRDz7uAThFttpZGiUqeqwkw&oe=691418B7"
-    ],
-    phone: "+389 70 808 938",
-    email: "info.studiopranvera@gmail.com",
-    address: "Main Street 12, Tetovo, North Macedonia",
-    lat: 42.0086,
-    lng: 20.9715
+{
+  id: "studio-pranvera-tetovo",
+  name: {
+    en: "Studio Pranvera",
+    sq: "Studio Pranvera",
+    mk: "Студио Пранвера",
+    tr: "Studio Pranvera"
   },
- {
+  description: {
+    en: "Studio Pranvera offers top-tier hair styling and salon services in Tetovo with a professional team and modern equipment.",
+    sq: "Studio Pranvera ofron shërbime të nivelit të lartë të flokëve dhe salloni në Tetovë me një ekip profesional dhe pajisje moderne.",
+    mk: "Студио Пранвера нуди врвни фризерски услуги во Тетово со професионален тим и современа опрема.",
+    tr: "Studio Pranvera, Tetovo'da profesyonel ekip ve modern ekipmanlarla üst düzey kuaför ve salon hizmetleri sunmaktadır."
+  },
+  city: "Tetovo",
+  category: "Salon",
+  image: "https://i.imgur.com/XKeJpQE.jpeg",
+  gallery: [
+    "https://i.imgur.com/XKeJpQE.jpeg",
+    "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/469806179_18438689062077311_2493827955241016386_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dvRso7CQ57oQ7kNvwGY3jCV&_nc_oc=AdkTfS0EguBXono1rmGC_Pqu8pUxfR9xHaSZ0OvbYVCvstVbDpbXP_vWyUxXGR2Q01w&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=F4mnWQ3HnjAOztd_vEfUQw&oh=00_AfgBn95AVdubAUUUMh1F4DS2-0qbAm9beqbOlJJUU-QM_g&oe=6914190A",
+    "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/482015554_2623799364497845_8403679841216950456_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=108&ccb=1-7&_nc_sid=3a1ebe&_nc_ohc=8T8Pdv8fkSUQ7kNvwH9fD7O&_nc_oc=AdnOkYyydwZ6s1tiXBshUIfhgbLMxnj3KVxzi5zXqsALz6JvUbMbBYAbrqzFCgknycA&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=gBW_MaVSL6x6X6YfMGqBJQ&oh=00_AfgdMHDJ7uaxkhn2Zdo0K7DT9XZj0rnxBfDIrkTYYcJDAQ&oe=691421C8",
+    "https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/469860858_18438688810077311_5506247010047137500_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1NQYzM-DnkAQ7kNvwG5BG6o&_nc_oc=Adm1tE-yAAuXwePec8ij6EKdoeRy_FgWruXdRH4rYBwxzAi1XiopbYpCmv95EAFyQe4&_nc_zt=23&_nc_ht=scontent.fskp4-1.fna&_nc_gid=F4mnWQ3HnjAOztd_vEfUQw&oh=00_AfjNLuKlUS9QaGQQewQp_VpqRDz7uAThFttpZGiUqeqwkw&oe=691418B7"
+  ],
+  phone: "+389 70 808 938",
+  email: "info.studiopranvera@gmail.com",
+  address: "Main Street 12, Tetovo, North Macedonia",
+  lat: 42.0086,
+  lng: 20.9715
+},
+
+{
   id: "balkan-perfumes-tetovo",
   name: {
     en: "Balkan Perfumes",
@@ -2334,42 +2335,57 @@ const servicesData = [
     mk: "Балкан Перфумс",
     tr: "Balkan Perfumes"
   },
+  description: {
+    en: "Balkan Perfumes is a boutique perfume shop in Tetovo offering a wide collection of premium and niche fragrances from around the world. Discover luxury scents for every taste.",
+    sq: "Balkan Perfumes është një dyqan parfumerie në Tetovë që ofron një koleksion të gjerë aromash premium dhe unike nga e gjithë bota. Zbuloni aromat luksoze për çdo shije.",
+    mk: "Балкан Перфумс е бутик парфимерија во Тетово со широк избор на премиум и уникатни мириси од целиот свет. Откријте луксузни мириси за секој вкус.",
+    tr: "Balkan Perfumes, Tetovo'da dünyanın dört bir yanından premium ve niş parfümler sunan butik bir parfümeri mağazasıdır. Her zevke uygun lüks kokular keşfedin."
+  },
   city: "Tetovo",
   category: "Perfume Shop",
   image: "https://i.imgur.com/mscXvwn.jpeg",
+  gallery: [
+    "https://i.imgur.com/mscXvwn.jpeg",
+    "https://m.media-amazon.com/images/I/610excjaWcL._UF1000,1000_QL80_.jpg",
+    "https://hips.hearstapps.com/hmg-prod/images/chanel-no5-jasmine-blossoms-65733cf5500ff.jpg",
+    "https://media.douglas.si/media/image/9e/c7/39/TF000055_1_1280x1280@2x.jpg"
+  ],
   phone: "Coming soon",
   email: "N/A",
-  address: "Tetovo, North Macedonia"
+  address: "Tetovo, North Macedonia",
+  lat: 42.0067,
+  lng: 20.9714
 },
-  {
-    id: "studio-minolta-tetovo",
-    name: {
-      en: "Studio Minolta",
-      sq: "Studio Minolta",
-      mk: "Студио Минолта",
-      tr: "Studio Minolta"
-    },
-    city: "Tetovo",
-    category: "Photographer",
-    image: "https://i.imgur.com/Oo3uRw8.jpeg",
-    phone: "+389 70 45 46 47",
-    email: "N/A",
-    address: "St. Ilindenska 148, Tetovo - Macedonia"
+
+{
+  id: "foto-studio-minolta-tetovo",
+  name: {
+    en: "Foto Studio Minolta",
+    sq: "Foto Studio Minolta",
+    mk: "Фото Студио Минолта",
+    tr: "Foto Studio Minolta"
   },
-  {
-    id: "sweet-cakes",
-    name: {
-      en: "Sweet Dreams Cakes",
-      sq: "Torta Sweet Dreams",
-      mk: "Слатки Соништа Торти",
-      tr: "Tatlı Rüyalar Pastaları",
-    },
-    city: "Ohrid",
-    category: "Cake",
-    image: "https://i.imgur.com/x4dL0xD.png",
-    phone: "Coming Soon!",
-    email: "Coming Soon!",
+  description: {
+    en: "Foto Studio Minolta is a professional photography studio in Tetovo, specializing in wedding, portrait, and event photography. With years of experience, they capture your most precious moments with creativity and precision.",
+    sq: "Foto Studio Minolta është një studio profesionale fotografie në Tetovë, e specializuar në fotografi dasmash, portrete dhe evente. Me vite përvojë, ata kapin momentet tuaja më të çmuara me kreativitet dhe precizion.",
+    mk: "Фото Студио Минолта е професионално фото студио во Тетово, специјализирано за свадбена, портретна и настанска фотографија. Со долгогодишно искуство, тие ги доловуваат вашите највредни моменти со креативност и прецизност.",
+    tr: "Foto Studio Minolta, Tetovo'da düğün, portre ve etkinlik fotoğrafçılığı konusunda uzmanlaşmış profesyonel bir stüdyodur. Yılların tecrübesiyle en değerli anlarınızı yaratıcılık ve hassasiyetle yakalar."
   },
+  city: "Tetovo",
+  category: "Photographer",
+  image: "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/475638096_1144716894327591_5893423636797599994_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EMLJ5eALUXUQ7kNvwE68VVa&_nc_oc=AdnTJ9zkbQA5qqN4fWV6MD5NQ_EkBGgYHMftNNzxku2oReTJpRoWPbzVnhla50VvYg0&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=-mERs6Y09TH8Uzke7MJqEA&oh=00_AfhG84DI8PC5csCUg2Q9SnRuBBo8LFYxHitu7MjAbntTow&oe=69143337",
+  gallery: [
+    "https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/475638096_1144716894327591_5893423636797599994_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EMLJ5eALUXUQ7kNvwE68VVa&_nc_oc=AdnTJ9zkbQA5qqN4fWV6MD5NQ_EkBGgYHMftNNzxku2oReTJpRoWPbzVnhla50VvYg0&_nc_zt=23&_nc_ht=scontent.fskp4-2.fna&_nc_gid=-mERs6Y09TH8Uzke7MJqEA&oh=00_AfhG84DI8PC5csCUg2Q9SnRuBBo8LFYxHitu7MjAbntTow&oe=69143337",
+    "https://scontent.fskp4-1.fna.fbcdn.net/v/t1.6435-9/121603913_3676190959058876_7863938598535260488_n.jpg?stp=c316.0.1268.1268a_dst-jpg_s552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=50ad20&_nc_ohc=4MCmFk5NneoQ7kNvwG9LZh0&_nc_oc=Admrag09VT6PEzb1CsykvwZyYnDAwo6mpo4Mur-jTji3BXyYbn4sFohosVOL4JY-AjU&_nc_zt=23&_nc_ht=scontent.fskp4-1.fna&_nc_gid=_TV0PWlJmrdI9Dig-TnpMg&oh=00_AfiAZV6kMo6DXN942SSQrfClxOAIAsiZ8HeH_RUmBXBp_A&oe=6935E793",
+    "https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/487549869_1194776802654933_235270298847325642_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rAG6dTm9yzoQ7kNvwHad2yD&_nc_oc=AdmyBKtElS6KrwEIO6kIPsAbw6fRjRtYTE_Dds0Sk9aFbxPDf9YrzhpitKJGWY10qKo&_nc_zt=23&_nc_ht=scontent.fskp4-1.fna&_nc_gid=dz3v4XU_ZTidnt9h6Po5cA&oh=00_AfigOOlMs70jhg4ZAOHvESfD_qcvddJXLz8gmDUye6cJnA&oe=69141721"
+  ],
+  phone: "Coming soon",
+  email: "N/A",
+  address: "Tetovo, North Macedonia",
+  lat: 42.0067,
+  lng: 20.9714
+},
+
   {
     id: "studio-besa-tetovo",
     name: {
