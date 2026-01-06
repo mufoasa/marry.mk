@@ -3074,7 +3074,12 @@ const servicesData = [
   },
   city: "Ohrid",
   category: "Photographer",
-  image: "https://i.imgur.com/rIkoOIo.jpeg",
+  image: "https://i.imgur.com/khFc6vu.jpeg",
+   gallery: [
+    "https://i.imgur.com/gRf0ScA.jpeg",
+    "https://i.imgur.com/VlzFOUR.jpeg",
+    "https://i.imgur.com/lkIumx4.jpeg",
+  ],
   phone: "+389 71 366 199",
   email: "fotorex@ymail.com",
   address: "Ulica Sv. Kliment Ohridski, Ohrid 6000, North Macedonia",
@@ -3083,12 +3088,12 @@ const servicesData = [
     facebook: "https://www.facebook.com/fotoreks",
     instagram: "https://www.instagram.com/fotoreks"
   },
-   description: {
-      en: "Professional wedding photography and videography studio in Ohrid. Specializing in weddings, corporate events, family portraits, and travel photography.",
-      sq: "Studio profesional për fotografi dhe videoproduksion të dasmave në Ohër. Specializuar në dasma, ngjarje korporative, portrete familjare dhe fotografi udhëtimesh.",
-      mk: "Професионално студио за свадбена фотографија и видеопродукција во Охрид. Специјализирани за венчавки, корпоративни настани, семејни портрети и тревел фотографии.",
-      tr: "Ohrid'de profesyonel düğün fotoğrafçılığı ve video stüdyosu. Düğünler, kurumsal etkinlikler, aile portreleri ve seyahat fotoğrafçılığı konusunda uzman."
-   }
+ description: {
+    en: "Professional studio for wedding photography and videography from Ohrid. Specializing in weddings, corporate events, family portraits, and travel photography, focusing on unique moments around Lake Ohrid. With over 10 years of experience, we can provide photos, pricing, or references upon request.",
+    sq: "Studio profesional për fotografi dhe videoproduksion të dasmave nga Ohri. Specializuar në dasma, ngjarje korporative, portrete familjare dhe fotografi udhëtimesh, duke u fokusuar në momentet unike rreth Liqenit të Ohrit. Me mbi 10 vjet përvojë, mund të sigurojmë foto, çmime ose referenca sipas kërkesës.",
+    mk: "Професионално студио за свадбена фотографија и видеопродукција од Охрид. Специјализирани за венчавки, корпоративни настани, семејни сесии и тревел фотографии, со фокус на уникатни моменти околу Охридското Езеро. Со над 10 години искуство, можеме да обезбедиме фотографии, цени или референци по барање.",
+    tr: "Ohrid'den düğün fotoğrafçılığı ve video prodüksiyonu için profesyonel stüdyo. Düğünler, kurumsal etkinlikler, aile portreleri ve seyahat fotoğrafçılığında uzman, Ohrid Gölü çevresindeki özel anlara odaklanır. 10 yılı aşkın deneyimimizle, talep üzerine fotoğraflar, fiyatlar veya referanslar sağlayabiliriz."
+  }
 },
 
 {
