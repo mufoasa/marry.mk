@@ -3063,7 +3063,8 @@ const servicesData = [
   address: "Coming Soon!",
   website: "Coming Soon!"
 },
-{
+
+ {
   id: "foto-rex-ohrid",
   name: {
     en: "FOTO REX",
@@ -3073,7 +3074,7 @@ const servicesData = [
   },
   city: "Ohrid",
   category: "Photographer",
-  image: "https://i.imgur.com/rIkoOIo.jpeg", // updated image
+  image: "https://i.imgur.com/rIkoOIo.jpeg",
   phone: "+389 71 366 199",
   email: "fotorex@ymail.com",
   address: "Ulica Sv. Kliment Ohridski, Ohrid 6000, North Macedonia",
