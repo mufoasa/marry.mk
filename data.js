@@ -3082,12 +3082,7 @@ const servicesData = [
   social: {
     facebook: "https://www.facebook.com/fotoreks",
     instagram: "https://www.instagram.com/fotoreks"
-  },
-  description: {
-    en: "Professional wedding photography and videography studio in Ohrid. Specializing in weddings, corporate events, family portraits, and travel photography.",
-    sq: "Studio profesional për fotografi dhe videoproduksion të dasmave në Ohër. Specializuar në dasma, ngjarje korporative, portrete familjare dhe fotografi udhëtimesh.",
-    mk: "Професионално студио за свадбена фотографија и видеопродукција во Охрид. Специјализирани за венчавки, корпоративни настани, семејни портрети и тревел фотографии.",
-    tr: "Ohrid'de profesyonel düğün fotoğrafçılığı ve video stüdyosu. Düğünler, kurumsal etkinlikler, aile portreleri ve seyahat fotoğrafçılığı konusunda uzman."
+  }
 },
 
 {
