@@ -3064,7 +3064,33 @@ const servicesData = [
   website: "Coming Soon!"
 },
 
-// Ohrid - Photographers
+ {
+  id: "foto-rex-ohrid",
+  name: {
+    en: "FOTO REX",
+    sq: "FOTO REX",
+    mk: "FOTO REX",
+    tr: "FOTO REX"
+  },
+  city: "Ohrid",
+  category: "Photographer",
+  image: "https://i.imgur.com/rIkoOIo.jpeg",
+  phones: ["+389 71 366 199", "+389 46 260 906"], // <-- array of phones
+  email: "fotorex@ymail.com",
+  address: "Ulica Sv. Kliment Ohridski, Ohrid 6000, North Macedonia",
+  website: "https://www.instagram.com/fotoreks",
+  social: {
+    facebook: "https://www.facebook.com/fotoreks",
+    instagram: "https://www.instagram.com/fotoreks"
+  },
+  description: {
+    en: "Professional wedding photography and videography studio in Ohrid. Specializing in weddings, corporate events, family portraits, and travel photography.",
+    sq: "Studio profesional për fotografi dhe videoproduksion të dasmave në Ohër. Specializuar në dasma, ngjarje korporative, portrete familjare dhe fotografi udhëtimesh.",
+    mk: "Професионално студио за свадбена фотографија и видеопродукција во Охрид. Специјализирани за венчавки, корпоративни настани, семејни портрети и тревел фотографии.",
+    tr: "Ohrid'de profesyonel düğün fotoğrafçılığı ve video stüdyosu. Düğünler, kurumsal etkinlikler, aile portreleri ve seyahat fotoğrafçılığı konusunda uzman."
+  }
+},
+
 {
   id: "ohrid-photographer-coming-soon",
   name: {
