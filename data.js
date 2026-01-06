@@ -3075,7 +3075,7 @@ const servicesData = [
   city: "Ohrid",
   category: "Photographer",
   image: "https://i.imgur.com/rIkoOIo.jpeg",
-  phones: ["+389 71 366 199", "+389 46 260 906"], // <-- array of phones
+  phones: "+389 71 366 199",
   email: "fotorex@ymail.com",
   address: "Ulica Sv. Kliment Ohridski, Ohrid 6000, North Macedonia",
   website: "https://www.instagram.com/fotoreks",
